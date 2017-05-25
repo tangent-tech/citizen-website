@@ -1,0 +1,28 @@
+I patch the following line to make it jquery ui theme aware...
+
+jquery.jgrowl.js
+line 167: 
+<div class="message">' + message + '</div>
+->
+<div class="ui-state-highlight ui-corner-all message "><p>' + message + '</p></div>
+
+jquery.jgrowl.css
+
+comment out two line and make the padding smaller:
+div.jGrowl div.jGrowl-notification, div.jGrowl div.jGrowl-closer {
+/*
+	background-color: 		#000;
+	color: 					#fff;
+*/
+	padding: 				5px;
+}
+
+make the min-height smaller:
+div.jGrowl div.jGrowl-notification {
+	min-height: 			20px;
+}
+
+add this:
+div.jGrowl div.jGrowl-notification p {
+	padding: 5px;
+}

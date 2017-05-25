@@ -1,0 +1,1 @@
+<shipment_list>{$ShipmentListXML}</shipment_list>

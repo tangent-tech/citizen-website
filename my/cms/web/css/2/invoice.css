@@ -1,0 +1,85 @@
+@charset "utf-8";
+.AlignCenter {
+	text-align: center !important;
+}
+.AlignLeft {
+	text-align: left !important;
+}
+.AlignRight {
+	text-align: right !important;
+}
+tr {
+	page-break-inside: avoid;
+}
+#TNC {
+	page-break-inside: avoid;
+}
+body {
+}
+#InvoiceHeaderInfo p, #InvoiceHeaderInfo strong {
+	font-size: 14px;
+	line-height: 18px;
+}
+#Container {
+	width: 210mm;
+	padding: 0;
+	margin: 0 auto;
+	background: #ffffff;
+}
+#Logo {
+	text-align: left;
+	margin: 0 0;
+}
+#InvoiceHeaderInfo {
+	vertical-align:top;
+}
+#InvoiceHeaderInfo td, #InvoiceHeaderInfo th {
+	vertical-align:top;
+}
+#InvoiceHeaderInfoRight {
+	vertical-align:top;
+	text-align: right;
+}
+#InvoiceHeaderInfoRight th{
+	text-align: right;
+	vertical-align:top;
+}
+#InvoiceHeaderInfoRight td{
+	text-align: right;
+	vertical-align:top;
+}
+.strike {
+	text-decoration: line-through !important;
+}
+#ProductList {
+	padding: 0px 0px 0px 0px;
+}
+#BounsPointSummary {
+	padding: 20px 10px 20px 10px;
+}
+#ProductListTable, #BonusPointItemListTable {
+	width: 210mm;
+	text-align: center;
+	border-collapse: collapse;
+}
+#ProductListTable p, #BonusPointItemListTable p, #BonusPointSummaryTable p {
+	font-size: 14px;
+	line-height: 18px;
+}
+#ProductListTable td, #ProductListTable th, #BonusPointItemListTable td, #BonusPointItemListTable th, #BonusPointSummaryTable th, #BonusPointSummaryTable td {
+	text-align: center;
+	padding: 10px;
+	border: 2px solid gray;
+	vertical-align: middle;
+}
+#BonusPointSummaryTable {
+	width: 290px;
+	margin: 20px 0 0 650px;
+}
+.NoBorder {
+	border: 0px none !important; 
+}
+#InvoiceHeaderInfo h1 {
+	text-align: center;
+	font-size: 48px;
+}

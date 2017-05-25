@@ -1,0 +1,125 @@
+
+@charset "utf-8";
+
+/* --------------------
+ technology.css
+----------------------- */
+.technology{
+  margin-bottom: 0;
+}
+.copyblock{
+  line-height: 3em;
+}
+/*-----------------------------------
+techbtn
+-----------------------------------*/
+.techbtn_01 > a {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  border: 1px solid #6a6a6a;
+}
+.techbtn_01 > a::before {
+  content: '';
+  display: inline-block;
+  position: relative;
+  top: -2px;
+  width: 7px;
+  height: 7px;
+  margin-right: 10px;
+  border-top: 1px solid #000;
+  border-right: 1px solid #000;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.techbtn_01 > a:hover {
+  text-decoration: none;
+  opacity: .7;
+}
+.techbtn_01.btnMore > a::before {
+  -ms-transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+/* techbtn_02 */
+.techbtn_02 > a {
+  color: #FFF;
+  border: 1px solid #FFF;
+}
+.techbtn_02 > a::before {
+  border-top: 1px solid #FFF;
+  border-right: 1px solid #FFF;
+}
+
+/* technologyBlock
+----------------------- */
+.technologyArea01{
+  width: 1000px;
+  margin: 0 auto;
+}
+.technologyBlock{
+  height: 500px;
+  color: #FFF;
+}
+.technologyBlock .box{
+  width: 400px;
+  padding: 90px 0 0 70px;
+}
+.technologyBlock .technologyRightBlock{
+  padding: 90px 0 0 100px;
+  margin-left: 50%;
+}
+.technologyBlock .text{
+  line-height: 2em;
+}
+.technologyBlock .techbtn_01,.technologyBlock .techbtn_02{
+  width: 280px;
+}
+
+/* unique style */
+.ecoBlock{
+  color: #000;
+  background: url(../../images/technology/img_technology_01.jpg) no-repeat top center;
+}
+.titaniumBlock{
+  background: url(../../images/technology/img_technology_02.jpg) no-repeat top center;
+}
+.satellitewaveBlock{
+  background: url(../../images/technology/img_technology_03.jpg) no-repeat top center;
+}
+.rcwBlock{
+  background: url(../../images/technology/img_technology_04.jpg) no-repeat top center;
+}
+
+/* technologyArea02
+----------------------- */
+.technologyArea02{
+  width: 1000px;
+  margin: 0 auto;
+  background: #f5f5f5;
+}
+.technologyArea02 .technologyBlock{
+  height: 430px;
+  color: #000;
+}
+.technologyArea02 .box{
+  padding-top: 50px;
+}
+.duratectBlock{
+  background: url(../../images/technology/img_technology_05.jpg) no-repeat top right;
+}
+.directflightBlock{
+  background: url(../../images/technology/img_technology_06.jpg) no-repeat top left;
+}
+.claritycoatingBlock{
+  background: url(../../images/technology/img_technology_07.jpg) no-repeat top right;
+}
+.perfexBlock{
+  background: url(../../images/technology/img_technology_08.jpg) no-repeat top left;
+}
+
+
+
+

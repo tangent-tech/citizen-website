@@ -1,0 +1,12 @@
+<product>
+	<import_ref_id>{$import_ref_id}</import_ref_id>
+	<product_id>{$product_id}</product_id>
+	<msg>{$msg|myxml}</msg>
+	<media_list>
+		<no_of_media_parsed>{$no_of_media_parsed}</no_of_media_parsed>
+		<no_of_media_imported>{$no_of_media_imported}</no_of_media_imported>
+		<no_of_media_failed>{$no_of_media_failed}</no_of_media_failed>
+		<error_media_list>{$ErrorMediaListXMLString}</error_media_list>
+		<success_media_list>{$SuccessMediaListXMLString}</success_media_list>
+	</media_list>
+</product>

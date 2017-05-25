@@ -1,0 +1,50 @@
+/**
+ * @name: dd.css
+ * @description: customize dropdown 
+ * @author: Marghoob Suleman - http://www.marghoobsuleman.com/
+ * @version: 1.3 
+ * @date: March 09, 2009 
+ * @released: March 30, 2009 {1.3}, March 22, 2009 {1.2}, March 20, 2009 {1.0}
+ * @category: Javascript Custom Component
+ * @copyright (c) 2009 Marghoob Suleman (powered by: http://www.giftlelo.com/)
+ */
+.msDropDown div{display:inline-block; color:#922a8b; text-align:left; font-size: 8pt;}
+
+.coloredScroll {
+	/*
+	* Works only in IE.
+	*/ 
+	/*
+	scrollbar-face-color: 3dface !important;
+	scrollbar-shadow-color: ThreeDDarkShadow !important;
+	scrollbar-highlight-color: ThreeDHighlight !important;
+	scrollbar-3dlight-color: ThreeDLightShadow !important;
+	scrollbar-darkshadow-color: ThreeDDarkShadow !important;
+	scrollbar-track-color: Scrollbar !important;
+	scrollbar-arrow-color: ButtonText !important;
+	*/
+}
+.msDropDown {
+/*	background:#b17ab4 repeat-x; */
+	background:#ffffff repeat-x;
+	border:1px solid #922a8b;
+	padding: 2px 0 2px 12px;
+	width:auto;
+	margin: 0 0 0 5px;
+/*	display:inline-block; */
+	display: block;
+	float: left;
+	position:absolute;
+}
+.msDropDown .msDropDown_Child{border:1px solid #922a8b;display:none; width:auto; margin:0; padding: 0 0 0 10px; cursor:pointer; background-color:#ffffff; height:auto; overflow-y:auto; overflow-x:hidden;}
+.msDropDown .msEnabled{cursor:pointer}
+.msDropDown .msDisabled{cursor:default;}
+.msDropDown .msArrow{width:16px;padding: 0; position:relative; float:right;}
+.msDropDown .msDropdownTitle{width:auto; display:inline-block;float:left;padding: 0; overflow:hidden;}
+.msDropDown .msDropdownTitle img {padding: 0px 10px 0 0;}
+.msDropDown img{border:0; margin: 0;}
+.msDropDown a img.icon{padding: 0 5px 0 0;}
+.msDropDown .msDropDown_Child a{padding:3px 0 3px 2px; text-decoration:none;; display:block; height:auto; clear:both; margin:0; width:130%;}
+.msDropDown .msDropDown_Child a, .msDropDown .msDropDown_Child a:visited{color:#922a8b;}
+.msDropDown .msDropDown_Child a:hover{color:#000000; background-color:#ffffff;}
+.msDropDown .msDropDown_Child a.selected{color:#000000; background-color:#ffffff;}

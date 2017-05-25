@@ -1,0 +1,1 @@
+Order Confirmation: {$smarty.const.CLIENT_NAME} - {$MyOrder->myorder->invoice_first_name} {$MyOrder->myorder->invoice_last_name}

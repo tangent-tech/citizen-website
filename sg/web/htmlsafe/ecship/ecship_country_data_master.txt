@@ -1,0 +1,771 @@
+AFA
+Afghanistan
+阿富汗
+ALA
+Albania
+阿爾巴尼亞
+DZA
+Algeria
+阿爾及利亞
+ADA
+Andorra 
+安道爾
+AOA
+Angola
+安哥拉
+AIA
+Anguilla
+安圭拉島
+AGA
+Antigua & Barbuda
+安提瓜及巴布達
+ARA
+Argentina
+阿根廷
+AMA
+Armenia
+亞美尼亞
+ACA
+Ascension
+阿森松
+AWA
+Aruba
+阿魯巴
+AUA
+Australia (WA)
+澳大利亞(西澳大利亞)
+AUB
+Australia (others)
+澳大利亞(其他省份)
+ATA
+Austria
+奧地利
+AZA
+Azerbaijan
+阿塞拜彊
+PTB
+Azores
+亞速爾
+BSA
+Bahamas
+巴哈馬
+BHA
+Bahrain
+巴林
+IBA
+Baleares Islands
+巴利阿里群島
+BDA
+Bangladesh
+孟加拉
+BBA
+Barbados
+巴巴多斯
+BYA
+Belarus
+白俄羅斯
+BEA
+Belgium
+比利時
+BZA
+Belize
+伯利茲
+BJA
+Benin
+貝寧
+BMA
+Bermuda
+百慕達
+BTA
+Bhutan
+不丹
+BOA
+Bolivia
+玻利維亞
+BAA
+Bosnia and Herzegovina
+波斯尼亞 - 黑塞哥維那
+BWA
+Botswana
+博茨瓦納
+BRA
+Brazil
+巴西
+IOA
+British Indian O.T.
+英屬印度洋地區
+BNA
+Brunei Darussalam
+文萊
+BGA
+Bulgaria
+保加利亞
+BFA
+Burkina Faso
+布納基納法索
+BIA
+Burundi
+布隆迪
+KHA
+Cambodia
+柬埔寨
+CMA
+Cameroon
+喀麥隆
+CAA
+Canada
+加拿大
+ESC
+Canary Islands
+加那利群島
+CVA
+Cape Verde Island
+佛得角群島
+FMA
+Caroline Islands (Micronesia)
+加羅林群島 (密克羅尼西亞)
+PWA
+Caroline Islands (Palau)
+加羅林群島 (帕勞)
+KYA
+Cayman Islands
+開曼群島
+CFA
+Central Africa Republic
+中非共和國
+TDA
+Chad
+查得
+CLA
+Chile
+智利
+CNA
+China, Mainland (Beijing)
+中國內地(北京)
+CNB
+China, Mainland (Fuzhou)
+中國內地(福州)
+CNC
+China, Mainland (Guangdong Province)
+中國內地(廣東省)
+CND
+China, Mainland (Hangzhou)
+中國內地(杭州)
+CNE
+China, Mainland (Kunming)
+中國內地(昆明)
+CNF
+China, Mainland (Shanghai)
+中國內地(上海)
+CNG
+China, Mainland (Other area)
+中國內地(其他地區)
+CNH
+China, Mainland (Tianjin)
+中國內地(天津)
+CNI
+China, Mainland (Wenzhou)
+中國內地(溫州)
+CNJ
+China, Mainland (Xiamen)
+中國內地(廈門)
+CXA
+Christmas Islands
+聖誕島
+CCA
+Cocos (Keeling) Island
+科科斯群島
+COA
+Colombia
+哥倫比亞
+KMA
+Comoros
+科摩羅
+CDA
+Congo (Democratic Rep Of the)
+剛果民主共和國
+CGA
+Congo (Republic of)
+剛果
+EUA
+Corsica
+科西嘉島
+CRA
+Costa Rica
+哥斯達黎加
+CIA
+Cote d\'Ivoire (Ivory Coast)
+科特迪瓦(象牙海岸)
+HRA
+Croatia
+克羅地亞
+CUA
+Cuba (Guantanamo Bay)
+古巴(關塔那摩灣)
+CUB
+Cuba (Other places)
+古巴(其他地方)
+CYA
+Cyprus
+塞浦路斯
+CZA
+Czech Republic
+捷克
+DKA
+Denmark
+丹麥
+DJA
+Djibouti
+吉布提
+DMA
+Dominica
+多米尼加島
+DOA
+Dominican Republic
+多米尼加共和國
+TPA
+East Timor
+東帝汶
+ECA
+Ecuador
+厄瓜多爾
+EGA
+Egypt
+埃及
+SVA
+El Salvador
+薩爾瓦多
+GQA
+Equatorial Guinea (Republic of)
+赤道幾內亞
+ERA
+Eritrea
+厄立特里亞
+EEA
+Estonia (Republic of)
+愛沙尼亞
+ETA
+Ethiopia
+埃塞俄比亞
+FKA
+Falkland Island (inc. Deps)
+福克蘭群島(包括屬地)
+FOA
+Faroe Islands
+法羅群島
+FJA
+Fiji
+斐濟
+FIA
+Finland
+芬蘭
+FRA
+France
+法國
+GFA
+French Guiana
+法屬圭亞那
+PFA
+French Polynesia
+法屬波利尼西亞
+GPA
+FR. W. I. (Guadeloupe)
+法屬西印度群島(瓜德羅普島)
+MQA
+FR. W. I. (Martinique)
+法屬西印度群島(馬提尼克島)
+GAA
+Gabon
+加蓬
+GMA
+Gambia
+岡比亞
+XEA
+Gaza and Khan Yunis
+加沙及汗尤尼斯
+GEA
+Georgia (Republic of)
+格魯吉亞
+DEA
+Germany
+德國
+GHA
+Ghana
+加納
+GIA
+Gibraltar
+直布羅陀
+GRA
+Greece
+希臘
+GLA
+Greenland
+格陵蘭
+GDA
+Grenada
+格林納達
+GUA
+Guam
+關島
+GTA
+Guatemala
+危地馬拉
+GNA
+Guinea (Republic of)
+幾內亞
+GWA
+Guinea Bissau (Republic of)
+幾內亞比紹
+GYA
+Guyana
+圭亞那
+HTA
+Haiti
+海地
+HNA
+Honduras (Republic of)
+洪都拉斯
+HUA
+Hungary
+匈牙利
+ISA
+Iceland
+冰島
+INA
+India (Mumbai)
+印度(孟買)
+INB
+India (Other places)
+印度(其他地方)
+IDA
+Indonesia
+印度尼西亞
+IRA
+Iran
+伊朗
+IQA
+Iraq
+伊拉克
+IEA
+Ireland
+愛爾蘭
+ILA
+Israel
+以色列
+ITA
+Italy
+意大利
+JMA
+Jamaica
+牙買加
+JPA
+Japan
+日本
+JPB
+Japan (Ryukyu Islands)
+日本(琉球群島)
+JOA
+Jordan
+約旦
+KZA
+Kazakhstan
+哈薩克
+KEA
+Kenya
+肯尼亞
+KIA
+Kiribati
+基里巴斯
+KPA
+Korea, North
+北韓
+KRA
+Korea, South 
+南韓
+KWA
+Kuwait
+科威特
+KGA
+Kyrgyzstan
+吉爾吉斯
+LAA
+Laos
+老撾
+LVA
+Latvia
+拉脫維亞
+LBA
+Lebanon
+黎巴嫩
+LSA
+Lesotho
+萊索托
+LRA
+Liberia
+利比里亞
+LYA
+Libyan Arab Jamahiriya (Libya)
+利比亞
+LIA
+Liechtenstein
+列支敦士登
+LTA
+Lithuania (Republic of)
+立陶宛
+LUA
+Luxembourg
+盧森堡
+MOA
+Macau
+澳門
+MKA
+Macedonia
+馬其頓
+MGA
+Madagascar (Democratic Republic of)
+馬達加斯加
+PTC
+Madeira
+馬德拉
+MWA
+Malawi
+馬拉維
+MYA
+Malaysia (Peninsular)
+馬來西亞(半島馬來西亞)
+MYB
+Malaysia (Sabah)
+馬來西亞(沙巴)
+MYC
+Malaysia (Sarawak)
+馬來西亞(沙撈越)
+MVA
+Maldives (Republic of)
+馬爾代夫
+MLA
+Mali
+馬里
+MTA
+Malta
+馬爾他
+MPA
+Mariana Islands
+馬里亞納群島
+MHA
+Marshall Islands
+馬紹爾群島
+MRA
+Mauritania
+毛里塔尼亞
+MUA
+Mauritius
+毛里求斯
+MXA
+Mexico
+墨西哥
+MDA
+Moldova (Republic of)
+摩爾多瓦
+MCA
+Monaco
+摩納哥
+MNA
+Mongolia
+蒙古
+MEA
+Montenegro (Republic of)
+黑山(共和國)
+MSA
+Montserrat
+蒙特塞拉特
+MAA
+Morocco
+摩洛哥
+MZA
+Mozambique
+莫桑比克
+MMA
+Myanmar (Union of)
+緬甸
+NAA
+Namibia
+納米比亞
+NRA
+Nauru Islands
+瑙魯群島
+NPA
+Nepal
+尼泊爾
+NLA
+Netherlands
+荷蘭
+ANA
+Netherlands Antilles
+荷屬安的列斯群島及阿魯巴島(荷屬安的列斯群島)
+ANB
+Netherlands Aruba
+荷屬安的列斯群島及阿魯巴島(阿魯巴島)
+NCA
+New Caledonia
+新喀里多尼亞
+NZA
+New Zealand
+新西蘭
+XLA
+New Zealand Islands Territories (Cook Islands)
+新西蘭屬土島嶼(庫克群島)
+NIA
+Nicaragua
+尼加拉瓜
+NEA
+Niger Republic
+尼日爾
+NGA
+Nigeria
+尼日利亞
+NFA
+Norfolk Islands
+諾褔克島
+NOA
+Norway
+挪威
+OMA
+Oman, Sultanate of
+阿曼
+PKA
+Pakistan
+巴基斯坦
+PAA
+Panama (Republic of)
+巴拿馬
+PGA
+Papua New Guinea
+巴布亞新幾內亞
+PYA
+Paraguay
+巴拉圭
+PEA
+Peru
+秘魯
+PHA
+Philippines
+菲律賓
+PNA
+Pitcairn Island
+皮特凱恩島
+PLA
+Poland
+波蘭
+PTA
+Portugal
+葡萄牙
+PRA
+Puerto Rico
+波多黎各
+QAA
+Qatar (State of)
+卡塔爾
+REA
+Reunion (State of)
+留尼汪島
+ROA
+Romania
+羅馬尼亞
+RUA
+Russian Federation
+俄羅斯聯邦
+RWA
+Rwanda
+盧旺達
+ASA
+Samoa (U.S.A. Territory)
+薩摩亞(美國屬土)
+SMA
+San Marino 
+聖馬力諾
+STA
+Sao Tome & Principe (Republic of)
+聖多美和普林西比
+SAA
+Saudi Arabia
+沙地阿拉伯
+SNA
+Senegal
+塞內加爾
+RSA
+Serbia (Republic of)
+塞爾維亞(共和國)
+SCA
+Seychelles
+塞舌爾
+SLA
+Sierra Leone
+塞拉里昂
+SGA
+Singapore
+新加坡
+SKA
+Slovakia Republic
+斯洛伐克(共和國)
+SIA
+Slovenia (Republic of)
+斯洛文尼亞
+SBA
+Solomon Islands
+所羅門群島
+SOA
+Somali
+索馬里
+ZAA
+South Africa (Republic of)
+南非
+ESA
+Spain
+西班牙
+ESB
+Spanish terr. of N.A.
+北非西班牙屬土
+SJA
+Spitzbergen
+斯匹次卑爾根群島
+LKA
+Sri Lanka (Republic of)
+斯里蘭卡
+KNA
+St. Christopher (St. Kitts) And Nevis
+聖克里斯托佛島及尼維斯島
+SHA
+St. Helena
+聖赫勒拿島
+LCA
+St. Lucia
+聖盧西亞
+PMA
+St. Pierre & Miquelon
+聖皮埃爾島和密克隆島
+VCA
+St. Vincent Grenadines
+聖文森特和格林納丁斯
+SDA
+Sudan (Rep. of)
+蘇丹
+SRA
+Suriname
+蘇里南
+SZA
+Swaziland
+斯威士蘭
+SEA
+Sweden
+瑞典
+CHA
+Switzerland
+瑞士
+SYA
+Syrian Arab Republic (Syria)
+阿拉伯敘利亞共和國(敘利亞)
+TWA
+Taiwan
+台灣
+TJA
+Tajikistan (Republic of)
+塔吉克
+TZA
+Tanzania
+坦桑尼亞
+THA
+Thailand
+泰國
+TGA
+Togo
+多哥
+TOA
+Tonga
+湯加
+VGA
+Tortola (British Virgin Islands) (Republic of)
+托爾托拉島(英屬處女群島)
+TTA
+Trinidad & Tobago
+千里達和多巴哥
+TAA
+Tristan de Cunha
+特里斯坦-達庫尼亞島
+TNA
+Tunisia
+突尼斯
+TRA
+Turkey
+土耳其
+TMA
+Turkmenistan
+土庫曼
+TCA
+Turks & Caicos Islands
+特克斯和凱科斯群島
+TVA
+Tuvalu
+圖瓦盧
+UGA
+Uganda
+烏干達
+UAA
+Ukraine
+烏克蘭
+AEA
+United Arab Emirates
+阿拉伯聯合酋長國
+GBA
+United Kingdom
+英國
+USA
+USA (Hawaii)
+美國(夏威夷)
+USB
+USA (New York)
+美國(紐約)
+USC
+USA (other States)
+美國(其他州)
+UYA
+Uruguay
+烏拉圭
+UZA
+Uzbekistan (Republic of)
+烏茲別克
+VUA
+Vanuatu (The Republic of)
+瓦努阿圖
+VAA
+Vatican City
+梵蒂岡
+VEA
+Venezuela
+委內瑞拉
+VNA
+Vietnam
+越南
+VIA
+Virgin Islands of the U.S.A.
+美屬處女群島
+UMA
+Wake Island
+威克島
+WFA
+Wallis & Futuna Is.
+瓦利斯群島和富圖納群島
+WSA
+Western Samoa
+西薩摩亞
+YEA
+Yemen 
+也門(屬前阿拉伯也門共和國的地方)
+YEB
+Yemen (Other Places)
+也門(其他地方)
+ZMA
+Zambia
+贊比亞
+ZWA
+Zimbabwe
+津巴布韋

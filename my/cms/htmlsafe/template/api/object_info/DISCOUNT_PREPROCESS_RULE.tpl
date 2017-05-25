@@ -1,0 +1,9 @@
+<discount_preprocess_rule>
+	<discount_preprocess_rule_id>{$Object.discount_preprocess_rule_id}</discount_preprocess_rule_id>
+	<discount_preprocess_discount1_min_quantity>{$Object.discount_preprocess_discount1_min_quantity}</discount_preprocess_discount1_min_quantity>
+	<discount_preprocess_discount1_off_p>{$Object.discount_preprocess_discount1_off_p}</discount_preprocess_discount1_off_p>
+	<discount_preprocess_discount2_amount>{$Object.discount_preprocess_discount2_amount}</discount_preprocess_discount2_amount>
+	<discount_preprocess_discount2_price>{$Object.discount_preprocess_discount2_price}</discount_preprocess_discount2_price>
+	<discount_preprocess_rule_name>{$Object.discount_preprocess_rule_name|myxml}</discount_preprocess_rule_name>
+	<discount_preprocess_rule_desc>{$Object.discount_preprocess_rule_desc|myxml}</discount_preprocess_rule_desc>
+</discount_preprocess_rule>

@@ -1,0 +1,1 @@
+<campaign_id>{$CampaignID}</campaign_id>

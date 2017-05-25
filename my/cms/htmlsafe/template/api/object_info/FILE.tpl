@@ -1,0 +1,9 @@
+<file>
+	<file_id>{$Object.file_id}</file_id>
+	<filename>{$Object.filename|myxml}</filename>
+	<size>{$Object.size}</size>
+	<mimetype>{$Object.mimetype|myxml}</mimetype>
+	<parent_object_id>{$ParentObjectID}</parent_object_id>
+	<object_security_level>{$ObjectSecurityLevel}</object_security_level>
+	<file_md5>{$Object.file_md5|myxml}</file_md5>
+</file>

@@ -1,0 +1,11 @@
+<discount_bundle_rule>
+	<discount_bundle_rule_id>{$Object.discount_bundle_rule_id}</discount_bundle_rule_id>
+	<discount_bundle_discount_type_id>{$Object.discount_bundle_discount_type_id}</discount_bundle_discount_type_id>
+	<discount_bundle_discount1_off_p>{$Object.discount_bundle_discount1_off_p}</discount_bundle_discount1_off_p>
+	<discount_bundle_discount2_at_price>{$Object.discount_bundle_discount2_at_price}</discount_bundle_discount2_at_price>
+	<discount_bundle_discount3_add_price>{$Object.discount_bundle_discount3_add_price}</discount_bundle_discount3_add_price>
+	<discount_bundle_rule_name>{$Object.discount_bundle_rule_name|myxml}</discount_bundle_rule_name>
+	<discount_bundle_rule_desc>{$Object.discount_bundle_rule_desc|myxml}</discount_bundle_rule_desc>
+	<cost_aware_condition_list>{$CostAwareConditionListXML}</cost_aware_condition_list>
+	<free_condition_list>{$FreeConditionListXML}</free_condition_list>
+</discount_bundle_rule>

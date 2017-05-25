@@ -1,0 +1,9 @@
+<country>
+	<country_id>{$Object.country_id}</country_id>
+	<country_code>{$Object.country_code}</country_code>
+	<country_name_tc>{$Object.country_name_tc|myxml}</country_name_tc>
+	<country_name_sc>{$Object.country_name_sc|myxml}</country_name_sc>
+	<country_name_en>{$Object.country_name_en|myxml}</country_name_en>
+	<country_name_jp>{$Object.country_name_jp|myxml}</country_name_jp>
+	<country_name_kr>{$Object.country_name_kr|myxml}</country_name_kr>
+</country>

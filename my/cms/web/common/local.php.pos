@@ -1,0 +1,26 @@
+<?php
+
+// You should change this to true for local development env
+define('IS_LOCAL', false);
+
+$FORCE_ENV = 'POS';
+
+define('SHOP_ID',		1);
+define('SITE_ID',		13);
+define('api_login', 	'herocross');
+define('api_key',		'8564db108fb6fd7fb1bc39f56c4a8abe');
+define('DB_HOST',			'');
+define('DB_NAME',			'c184hcpos');
+define('DB_USER',			'c184hcpos');
+define('DB_PASSWD',			'hmbgVpRM2F_8');
+define('BASEDIR',			'/var/www/hcpos.eksx.com/');
+//	define('BASEDIR',			'/Applications/MAMP/htdocs/demo.369cms.com/');	// My Mac Path, probably you need to change ths in PC
+define('BASEWEBDIR',		BASEDIR . 'web/');
+define('BASEDIR_HTMLSAFE',	BASEDIR . 'htmlsafe/');
+define('BASEURL',			'http://hcpos.eksx.com/myadmin/');
+
+define('API_BASEURL',		'http://hcpos.eksx.com/api/pos/');
+
+define('MYSQL_COMMAND',		'/usr/bin/mysql');
+define('MYSQL_DUMP',		'/usr/bin/mysqldump');
+?>

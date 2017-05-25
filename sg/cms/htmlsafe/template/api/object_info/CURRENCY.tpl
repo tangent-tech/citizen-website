@@ -1,0 +1,10 @@
+<currency>
+	<currency_id>{$Object.currency_id}</currency_id>
+	<currency_paypal>{$Object.currency_paypal}</currency_paypal>
+	<currency_paydollar_currCode>{$Object.currency_paydollar_currCode|myxml}</currency_paydollar_currCode>
+	<currency_shortname>{$Object.currency_shortname|myxml}</currency_shortname>
+	<currency_longname>{$Object.currency_longname|myxml}</currency_longname>
+	<currency_symbol>{$Object.currency_symbol|myxml}</currency_symbol>
+	<currency_precision>{$Object.currency_precision|myxml}</currency_precision>
+	<currency_site_rate>{$Object.currency_site_rate}</currency_site_rate>
+</currency>

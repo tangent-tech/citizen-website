@@ -1,0 +1,20 @@
+<?php
+
+// You should change this to true for local development env
+define('IS_LOCAL', true);
+
+if (IS_LOCAL) {
+
+	define('BASEDIR',				'C:\\MAMP\\htdocs\\devcitizen.eksx.com\\');
+	define('BASEURL',				'http://localhost:8888/devcitizen.eksx.com/web/');
+	define('REMOTE_BASEURL',		'http://devcitizen.eksx.com');
+	
+	define('HIDE_SESSION_DEBUG',	false);//header.tpl
+	define('RUN_PROCESS_TIME',		true);//footer.php
+	
+	define('CLIENT_NOREPLY_EMAIL',		'no-reply@aveego.com');
+	define('CLIENT_CONTACT_EMAIL',		'info@aveego.com');
+	define('CLIENT_AVE1_EMAIL',			'info@aveego.com');
+	define('CLIENT_AVE2_EMAIL',			'fung.chan@aveego.com');
+}
+?>

@@ -1,0 +1,31 @@
+<no_of_object_parsed>{$no_of_object_parsed}</no_of_object_parsed>
+<no_of_object_imported>{$no_of_object_imported}</no_of_object_imported>
+<no_of_object_failed>{$no_of_object_failed}</no_of_object_failed>
+<product_list>
+	<no_of_product_parsed>{$no_of_product_parsed}</no_of_product_parsed>
+	<no_of_product_imported>{$no_of_product_imported}</no_of_product_imported>
+	<no_of_product_failed>{$no_of_product_failed}</no_of_product_failed>
+	<error_product_list>{$ErrorProductXMLString}</error_product_list>
+	<success_product_list>{$SuccessProductXMLString}</success_product_list>
+</product_list>
+<album_list>
+	<no_of_album_parsed>{$no_of_album_parsed}</no_of_album_parsed>
+	<no_of_album_imported>{$no_of_album_imported}</no_of_album_imported>
+	<no_of_album_failed>{$no_of_album_failed}</no_of_album_failed>
+	<error_album_list>{$ErrorAlbumXMLString}</error_album_list>
+	<success_album_list>{$SuccessAlbumXMLString}</success_album_list>
+</album_list>
+<news_list>
+	<no_of_news_parsed>{$no_of_news_parsed}</no_of_news_parsed>
+	<no_of_news_imported>{$no_of_news_imported}</no_of_news_imported>
+	<no_of_news_failed>{$no_of_news_failed}</no_of_news_failed>
+	<error_news_list>{$ErrorNewsXMLString}</error_news_list>
+	<success_news_list>{$SuccessNewsXMLString}</success_news_list>
+</news_list>
+<media_list>
+	<no_of_media_parsed>{$no_of_media_parsed}</no_of_media_parsed>
+	<no_of_media_imported>{$no_of_media_imported}</no_of_media_imported>
+	<no_of_media_failed>{$no_of_media_failed}</no_of_media_failed>
+	<error_media_list>{$ErrorMediaXMLString}</error_media_list>
+	<success_media_list>{$SuccessMediaXMLString}</success_media_list>
+</media_list>

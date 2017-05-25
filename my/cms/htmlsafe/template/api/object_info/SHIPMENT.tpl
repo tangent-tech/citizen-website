@@ -1,0 +1,26 @@
+<shipment>
+	<shipment_id>{$Object.stock_transaction_id}</shipment_id>
+	<myorder_id>{$Object.myorder_id}</myorder_id>
+	<user_id>{$Object.user_id}</user_id>
+	<site_id>{$Object.site_id}</site_id>
+	<shipment_country_id>{$Object.shipment_country_id}</shipment_country_id>
+	<shipment_hk_district_id>{$Object.shipment_hk_district_id}</shipment_hk_district_id>
+	<shipment_first_name>{$Object.shipment_first_name|myxml}</shipment_first_name>
+	<shipment_last_name>{$Object.shipment_last_name|myxml}</shipment_last_name>
+	<shipment_company_name>{$Object.shipment_company_name|myxml}</shipment_company_name>
+	<shipment_city_name>{$Object.shipment_city_name|myxml}</shipment_city_name>
+	<shipment_region>{$Object.shipment_region|myxml}</shipment_region>
+	<shipment_postcode>{$Object.shipment_postcode|myxml}</shipment_postcode>
+	<shipment_phone_no>{$Object.shipment_phone_no|myxml}</shipment_phone_no>
+	<shipment_tel_country_code>{$Object.shipment_tel_country_code|myxml}</shipment_tel_country_code>
+	<shipment_tel_area_code>{$Object.shipment_tel_area_code|myxml}</shipment_tel_area_code>
+	<shipment_fax_no>{$Object.shipment_fax_no|myxml}</shipment_fax_no>
+	<shipment_fax_country_code>{$Object.shipment_fax_country_code|myxml}</shipment_fax_country_code>
+	<shipment_fax_area_code>{$Object.shipment_fax_area_code|myxml}</shipment_fax_area_code>
+	<shipment_shipping_address_1>{$Object.shipment_shipping_address_1|myxml}</shipment_shipping_address_1>
+	<shipment_shipping_address_2>{$Object.shipment_shipping_address_2|myxml}</shipment_shipping_address_2>
+	<shipment_email>{$Object.shipment_email|myxml}</shipment_email>
+	<shipment_delivery_date>{$Object.shipment_delivery_date}</shipment_delivery_date>
+	<shipment_user_reference>{$Object.shipment_user_reference|myxml}</shipment_user_reference>
+	<shipment_products>{$ShipmentProductsXML}</shipment_products>
+</shipment>

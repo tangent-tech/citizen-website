@@ -1,0 +1,12 @@
+@media print {
+
+	* { font-size: 12px; }
+
+	.td {
+		font-weight: normal;
+	}
+	#PrintArea {
+		display: block;
+	}
+	
+}

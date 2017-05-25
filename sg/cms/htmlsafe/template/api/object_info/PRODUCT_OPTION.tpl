@@ -1,0 +1,16 @@
+<product_option>
+	<product_option_id>{$Object.product_option_id}</product_option_id>
+	<product_option_data_text>{$Object.product_option_data_text_1}</product_option_data_text>
+	<product_option_data_text_1>{$Object.product_option_data_text_1}</product_option_data_text_1>
+	<product_option_data_text_2>{$Object.product_option_data_text_2}</product_option_data_text_2>
+	<product_option_data_text_3>{$Object.product_option_data_text_3}</product_option_data_text_3>
+	<product_option_data_text_4>{$Object.product_option_data_text_4}</product_option_data_text_4>
+	<product_option_data_text_5>{$Object.product_option_data_text_5}</product_option_data_text_5>
+	<product_option_data_text_6>{$Object.product_option_data_text_6}</product_option_data_text_6>
+	<product_option_data_text_7>{$Object.product_option_data_text_7}</product_option_data_text_7>
+	<product_option_data_text_8>{$Object.product_option_data_text_8}</product_option_data_text_8>
+	<product_option_data_text_9>{$Object.product_option_data_text_9}</product_option_data_text_9>
+	<product_option_stock_level>{$Object.product_option_stock_level}</product_option_stock_level>
+	<product_option_quantity_sold>{$Object.product_option_quantity_sold}</product_option_quantity_sold>
+	<product_option_code>{$Object.product_option_code}</product_option_code>
+</product_option>

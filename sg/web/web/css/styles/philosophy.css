@@ -1,0 +1,26 @@
+
+@charset "utf-8";
+
+/*-----------------------------------
+unique
+-----------------------------------*/
+/* keyvisualBlock */
+.keyvisualBlock{
+  margin: 0 auto 63px;
+  text-align: center;
+}
+.copy_text{
+  line-height: 3.0em
+}
+.keyvisualBlock .copy_text{
+  font-size: 1.15rem;
+  line-height: 3.0em
+}
+.gray_block{
+  padding: 70px 100px;
+  background: #f6f6f6;
+}
+
+
+
+

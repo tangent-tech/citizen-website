@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteRule ^/?html/o_([0-9]+)_(.*)/(.*).html /website/load.php?id=$1&para=$2&friendly_name=$3 [L]
+RewriteRule ^/?html/l_([0-9]+)_(.*)/(.*).html /website/load.php?link_id=$1&para=$2&friendly_name=$3 [L]

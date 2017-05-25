@@ -1,0 +1,311 @@
+@charset "utf-8";
+.ui-tabs .ui-tabs-panel {
+	padding: 10px 10px;
+}
+a {
+	text-decoration: none;
+}
+.AlignCenter {
+	text-align: center !important;
+}
+.AlignLeft {
+	text-align: left !important;
+}
+.AlignRight {
+	text-align: right !important;
+}
+body {
+	background: #FFFFFF;
+	font: 100% Verdana,Arial,Helvetica,sans-serif;
+}
+.clearfloat {
+	height: 1px;
+	clear: both;
+}
+#Container {
+	padding: 0;
+	width: 950px;
+	margin: 0 auto 20px;
+}
+.ui-tabs .ui-tabs-panel .Content {
+	padding: 15px 5px 0;
+}
+#Content {
+	min-height: 600px;
+}
+#LoginContainer {
+	margin: 100px auto;
+	width: 480px;
+	background: url(../../images/bg_white.gif) repeat-y;
+}
+.ui-widget-content {
+	border-width: 2px;
+}
+#LoginContainerContent {
+	text-align: center;
+}
+.AdminError p {
+	margin: 0;
+	font-size: 12px;
+}
+.ListName {
+	font-weight: bold;
+}
+.ListDesc {
+	color: #7f8487;
+}
+#UnsubscribeTable {
+	margin: 0 auto;
+}
+#UnsubscribeTable th{
+	padding: 5px;
+	vertical-align: middle;
+	text-align: center;
+}
+#UnsubscribeTable td{
+	padding: 5px;
+	vertical-align: middle;
+	text-align: left;
+}
+
+#MainContent {
+	min-height: 600px;
+}
+.MyButton {
+	padding: 4px 5px 4px 20px;
+	text-decoration: none;
+	font-size: 12px;
+	position:relative;
+	margin: 0 5px 0 0;
+	display: inline-block;
+}
+.MyButton span.ui-icon {
+	left:0.2em;
+	margin:-8px 5px 0 0;
+	position:absolute;
+	top:50%;
+}
+.MyTinyButton {
+	padding: 4px 5px 4px 16px;
+	text-decoration: none;
+	font-size: 10px;
+	position:relative;
+	margin: 0 5px 0 0;
+}
+.MyTinyButton span.ui-icon {
+	left:0.2em;
+	margin:-8px 5px 0 0;
+	position:absolute;
+	top:50%;
+}
+caption {
+	font-weight: bold;
+	text-align: center;
+}
+div.AdminEditDetailsBlock input, div.AdminEditDetailsBlock textarea {
+	background-color:#FFFFCC;
+	border: 1px dashed #FFFFCC;
+}
+div.AdminEditDetailsBlock input:focus, div.AdminEditDetailsBlock textarea:focus {
+	background-color: #FFFF99;
+	border: 1px solid #CCCCCC;
+}
+div.AdminEditDetailsBlock .MyButton {
+	margin: 5px;
+}
+.TopHeaderTable, .LeftHeaderTable {
+	border: 1px solid #CCCCCC;
+}
+div.AdminEditDetailsBlock .LeftHeaderTable, div.AdminEditDetailsBlock .LeftHeaderTable td, div.AdminEditDetailsBlock .LeftHeaderTable th {
+	border: none;
+}
+div.AdminEditDetailsBlock .LeftHeaderTable th,
+div.AdminEditDetailsBlock .LeftHeaderTable td,
+div.AdminEditDetailsBlock .TopHeaderTable td {
+/*	font-weight: normal; */
+}
+.TopHeaderTable, .TopHeaderTable td, .TopHeaderTable th,
+.LeftHeaderTable, .LeftHeaderTable td, .LeftHeaderTable th
+{
+	border-collapse: collapse;
+}
+.LeftHeaderTable {
+	margin: 0 auto;
+}
+.LeftHeaderTable td {
+	text-align: left;
+}
+.LeftHeaderTable th {
+	text-align: right;
+	vertical-align: middle;
+}
+.TopHeaderTable td, .TopHeaderTable th,
+.LeftHeaderTable td, .LeftHeaderTable th
+{
+	padding: 5px 10px;
+	border-bottom: 1px solid #CCCCCC;
+}
+.TopHeaderTable td td ,
+.LeftHeaderTable td td , .LeftHeaderTable th th
+{
+	border: none;
+}
+
+
+
+
+.HiddenSubmit {
+	display: none;
+}
+.InnerContent {
+	padding: 20px;
+}
+.InnerHeader {
+	padding: 5px 10px;
+}
+.InnerContainer {
+	margin-bottom: 10px;
+}
+.InnerContainer h1, .InnerContainer h2, .InnerContainer p {
+	font-size: 12px;
+}
+.ProductTreeThumbnail {
+	width: 60px;
+	height: 60px;
+}
+
+div.AdminListBlock h1 {
+	font-size: 12px;
+	margin: 10px 0;
+}
+div.AdminListBlock table {
+	margin: 10px 5px;
+	font-size: 12px;
+	line-height: 16px;
+	border-collapse: collapse;
+	border: 1px dashed #CCCCCC;
+}
+div.AdminListBlock th {
+	padding: 5px 20px;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: bold;
+	border-collapse: collapse;
+	border-top: 1px dashed #CCCCCC;
+	border-bottom: 1px dashed #CCCCCC;
+}
+div.AdminListBlock td {
+	padding: 5px 0px;
+	border-collapse: collapse;
+	border-top: 1px dashed #CCCCCC;
+	border-bottom: 1px dashed #CCCCCC;
+	vertical-align: middle;
+	text-align: center;
+}
+div.AdminListBlock input, div.AdminListBlock textarea {
+	background-color:#FFFFCC;
+	border: 1px dashed #FFFFCC;
+}
+div.AdminListBlock input:focus, div.AdminListBlock textarea:focus {
+	background-color: #FFFF99;
+	border: 1px solid #CCCCCC;
+}
+div.AdminListBlock .MyButton {
+	margin: 5px;
+}
+tr.DisabledRow {
+/*	background-color: #efefef; */
+	background-color: #929292;
+}
+th.RowCaption{
+	text-align: center !important;
+	font-size: 14px;
+}
+#BonusPointGiftTable td, #BonusPointGiftTable th {
+	text-align: center;
+}
+
+#RightHeaderContainer {
+	float: right;
+	text-align: right;
+	padding: 20px 10px 0 0;
+}
+#RightHeaderContainer p {
+	padding: 3px 0;
+}
+#set_site_id_button {
+	margin-right: 0;
+}
+#Header {
+	padding-bottom: 5px;
+}
+ul.menu li a {
+	font-size: 12px;
+}
+a.PreviewImage {
+	display: block;
+	width: 360px;
+	overflow: hidden;
+	margin: 30px auto;
+	text-align: center;
+}
+a.PagePreviewImage {
+	display: block;
+	width: 150px;
+	overflow: hidden;
+	margin: 3px auto;
+	text-align: center;
+}
+p.BlockDescription {
+	font-size: 12px;
+	font-style: italic;
+	padding: 5px 0;
+}
+
+.PageEditRight {
+	width: 360px;
+	float: right;
+}
+.PageEditLeft {
+	width: 520px;
+}
+#TablePageLayoutChange table, #TablePageLayoutChange td, #TablePageLayoutChange th {
+	text-align: center;
+	vertical-align: middle;
+}
+#TablePageLayoutChange td {
+	border: 1px dashed #CCCCCC;
+}
+
+.PageTitle {
+	font-size: 14px;
+	margin: 5px 0px 15px;
+}
+
+#LoginContainerContent label {
+	display:block;
+	float:left;
+	font-size:10pt;
+	margin-right:0.5em;
+	text-align:left;
+	width:80px;
+}
+#LoginContainerContent p {
+	margin: 10px 0;
+}
+#LoginContainerContent .AdminError p {
+	margin: 5px 0;
+}
+img.MediaSmallFile, br.MediaSmallFile {
+	vertical-align: middle;
+	display: inline;
+}
+
+span.AdminColorBlock {
+	width: 100px;
+	display: inline-block;
+}
+
+#MyOrderTabsPanel-Pricing table {
+	margin: 0 auto;
+}

@@ -1,0 +1,427 @@
+@charset "utf-8";
+
+.LocalTest {
+	background: #00ff00;
+	text-align: center;
+}
+
+.ProductRootrelatedList {
+	width: 903px;
+}
+.magnifier {
+	background: #fff;
+}
+.ProductSpec ul > li + li {
+  margin-top: 7px;
+}
+.header_search_submit {
+    position: absolute;
+    top: -3px;
+    right: 5px;
+}
+.search_inputList {
+	width: 560px;
+}
+.search_input_text {
+    width: 500px;
+}
+
+.StoreLocationSearchWrap {
+	width: 770px;
+}
+.StoreLocationSearchWrap select {
+	background: #fff;
+	height: 33px;
+}
+.StoreLocationSearchWrap select, .StoreLocationSearchWrap input[type='text'] {
+	width: 100%;
+	line-height: 28px;
+}
+.StoreLocationMainShopContent {
+	margin-bottom: 30px;
+}
+.StoreLocationMainShopContent a, .StoreListContent a {
+    display: inline-block;
+    color: #1072bd !important;
+}
+
+.StoreListContent {
+	padding: 25px 0;
+}
+.StoreListContent h4 {
+	color: #000000;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 28px;
+	border-left: 2px solid #000;
+	padding-left: 25px;
+	margin-bottom: 20px;
+}
+.StoreListContent table {
+	margin-bottom: 20px;
+}
+.StoreListContent td {
+	border: 1px solid #E6E6E6;
+	padding: 20px 10px;
+	font-size: 14px;
+	color: #000000;
+}
+td.NoBorderLeft {
+	border-left: 0 !important;
+}
+td.NoBorderRight {
+	border-right: 0 !important;
+}
+
+
+
+/*Watch search*/
+.lineup_brand {
+/*	height: 50px;*/
+	overflow: hidden;
+}
+.lineupWrap .column {
+	margin-top: 41px;
+}
+.lineup_image {
+/*	height: 238px;*/
+	position: relative;
+}
+#JSGenderSearch a {
+	cursor: pointer;
+}
+.termsTable_selectCategory_item {
+	width: 104px;
+}
+.termsTable_selectCategory_item > a {
+	display: block;
+}
+.termsTable_selectCategory_item > a > span {
+	display: block;
+	padding: 20px 5px;
+    -ms-word-break: break-all;
+    word-break: break-all;
+     word-break: break-word;
+    -webkit-hyphens: auto;
+       -moz-hyphens: auto;
+        -ms-hyphens: auto;
+            hyphens: auto;
+}
+.sort_buttonList {
+	width: 400px;
+}
+.search_inputList_item {
+	width: 195px;
+}
+.SearchPage .search_inputList_item {
+	width: auto;
+}
+.ProductCategorySearchList {
+	width: auto !important;
+}
+
+/*Warranty*/
+.WarrantyLabel {
+	margin-bottom: 20px;
+	padding: 10px;
+	background-color: #999999;
+	color: #fff;
+	font-weight: bold;
+}
+.WarrantyForm table {
+	width: 100%;
+	border: 1px solid #999999;
+}
+.WarrantyForm th, .WarrantyForm td {
+	padding: 10px 15px;
+}
+.WarrantyForm th {
+	background: #F0F0F0;
+	color: #000000;
+	font-weight: bold;
+	text-align: left;
+}
+.WarrantyForm td {
+	font-size: 12px;
+}
+.WarrantyForm tr {
+	border-top: 1px solid #CCCCCC;
+}
+.WarrantyForm tr:first-child {
+	border-top: 0;
+}
+.WarrantyForm ul {
+	padding-top: 5px;
+}
+.WarrantyForm li {
+	display: inline-block;
+	margin-right: 20px;
+    width: 170px;
+	vertical-align: top;
+	margin-bottom: 7px;
+}
+.WarrantyForm li.WidthAuto {
+	 width: auto;
+}
+.WarrantyForm table input[type=text],
+.WarrantyForm table input[type=checkbox],
+.WarrantyForm table input[type=radio]{
+	display: inline-block;
+	margin-right: 10px;
+}
+.WarrantyForm table input[type=text] {
+	border: 1px solid #CCCCCC;
+}
+.WarrantyForm table input[type=submit] {
+	background-color: buttonface;
+	border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+	padding: 0 5px;
+}
+.WarrantyForm label.error {
+	position: relative;
+    display: inline-block;
+    padding: 3px;
+	background: none !important;
+	color: #ff0000;
+}
+.WarrantyForm input[type="radio"] + label::before {
+    width: 0;
+    height: 0;
+    margin-top: 0;
+    border: none;
+	background: none;
+}
+.lineupTopWrap li.column {
+/*	height: 520px;*/
+/*	overflow: hidden;*/
+}
+.MinInput {
+	width: 50px;
+}
+.ShortInput {
+	width: 80px;
+}
+.DateSelect {
+	border: 1px solid #CCCCCC;
+	width: 60px;
+	height: 27px;
+}
+
+input[type=reset] {
+    background-color: buttonface;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+    padding: 0 5px;
+}
+
+.ContentWrap {
+	text-align: center;
+	padding: 20px 0;
+	line-height: 25px;
+}
+.footer_gnavi_item {
+	margin: 0 20px;
+}
+.WarrantyResult .fieldname {
+	text-align: left;
+	width: 40%;	
+	font-weight: bold;
+}
+.WarrantyResult th, .WarrantyResult td {
+	padding: 10px;
+}
+.breadcrumb {
+	text-transform: uppercase;
+}
+
+#map-canvas { width: 750px; height: 400px; margin: 0 auto; }
+
+.LanguageBar {
+	position: absolute;
+	z-index: 50;
+    top: -24px;
+    right: 155px;
+	font-size: 11px !important;
+    letter-spacing: .1rem;
+    margin: 0 !important;
+	color: #fff;
+}
+.LanguageBar a {
+	display: inline-block !important;
+	color: #fff;
+	padding: 0 !important;
+	background: url(../../images/common/icon_arrow_01.gif) no-repeat 0 center;
+	padding-left: 15px !important;
+}
+.columnWrap.column5 {
+	display: block;
+}
+
+.lineup_featureList_item {
+	width: auto !important;
+	margin-bottom: 3px !important;
+	padding: 3px 10px !important;
+	margin-top: 0 !important;
+	margin-left: 5px !important;
+}
+
+.BtnClass {
+	display: inline-block;
+	background-color: buttonface;
+	border-width: 2px;
+	border-style: outset;
+	border-color: buttonface;
+	border-image: initial;
+	padding: 0 5px;
+}
+/*.lineupWrap .column.new_icon {
+	margin-top: 1px;
+}*/
+.header_search {
+	top: -17px;	
+}
+.gnavi_item:not(.gnavi_global) {
+	padding-top: 10px;
+}
+.gnavi_item span {
+	padding-bottom: 10px;
+}
+.headerNarrow .gnavi_inner .header_logo {
+	padding-top: 0;
+}
+.CustomTooltip {
+	width: 410px;
+	max-width: 420px !important;
+}
+.newscolumn_detail {
+	max-height: 100px;
+	height: auto;
+}
+.PickupLinkLine1Block {
+	display: block;
+	width: 310px;
+	margin: 0 auto;
+}
+input[type="password"] {
+  background-color: #fff;
+  padding: 3px;
+}
+.WarrantyExcelLogin > div {
+	padding-bottom: 15px;
+}
+.WarrantyExcelLogin p {
+	display: inline-block;
+	width: 150px;
+}
+#WarrantyExcelForm input[type=submit] {
+	background-color: buttonface;
+	border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+	padding: 0 5px;
+}
+.WarrantyExcelFormMsg {
+	padding-top: 20px;
+	color: #ff0000;
+}
+#WarrantyExcelForm label.error {
+	position: relative;
+    display: inline-block;
+    padding: 3px;
+	background: none !important;
+	color: #ff0000;
+}
+.WarrantyNotice {
+	font-size: 16px;
+}
+
+
+/*Different to another language css*/
+.product_btnDetail {
+	background-position: 105px center !important;
+}
+body {
+/*font-family: 新細明體, Verdana, Arial, sans-serif;*/
+	font-family: 微軟正黑體, Verdana, Arial, sans-serif;
+}
+#js-megadropWrap > li {
+	min-width: 70px;
+}
+#js-megadropWrap > li > a {
+	display: block;
+	text-align: center;
+}
+.gnavi_inner, .active .gnavi_inner {
+    width: auto;
+    padding-left: 10px;
+	margin: 0;
+}
+
+.clearfloat {
+	clear:both;
+	height: 0;
+	width:0;
+	line-height:0;
+	overflow: hidden;
+	font-size: 1px;
+}
+
+.newsColumnWrap {
+	margin-bottom: 10px;
+}
+.news_article ol {
+	padding-left: 35px;
+}
+.news_article table td[bgcolor="#000000"] {
+	background: #000000;
+}
+.news_article table[border="1"] td {
+	border: 1px solid #000000;
+}
+.news_article table[cellpadding="5"] td {
+	padding: 5px;
+}
+#PrintArea {
+	display: none;
+}
+.icon_new_01 {
+    display: inline-block;
+    position: absolute;
+    left: -12px;
+    top: -11px;
+    z-index: 500;
+/*    background: #000;*/
+    padding: 0 3px;
+    margin-right: -42px;
+    font-weight: bold;
+    font-size: 16px;
+/*    color: #fff;*/
+    width: 58px;
+    line-height: 26px;
+	text-align: center;
+	
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;	
+	
+}
+.product_variationList_item {
+	position: relative;
+}
+.product_variationList_item .icon_new_01 {
+    width: 38px;
+    line-height: 16px;	
+	font-size: 11px;
+	left: -23px;
+    top: -14px;
+}
+
+.productCatThumbnail {
+	width: 292px;
+}

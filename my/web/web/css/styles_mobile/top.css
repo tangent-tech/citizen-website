@@ -1,0 +1,195 @@
+
+@charset "utf-8";
+
+/*-----------------------------------
+topInfomationBlock
+-----------------------------------*/
+.topInfomationBlock {
+  padding: 2% 3%;
+  background: #ededed;
+}
+.topInfomationBlock li {
+  color: #1072bd;
+  text-indent: -17px;
+  padding-left: 17px;
+}
+.topInfomationBlock a {
+  color: #1072bd;
+}
+.topInfomationBlock a::before {
+  content: '';
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
+  background: url(/s/common/images/icon_infomation_01.png) no-repeat 0 0;
+  -webkit-background-size: 11px auto;
+  background-size: 11px auto;
+}
+
+/*-----------------------------------
+lineup
+-----------------------------------*/
+.lineup ul {
+  border-bottom: 1px solid #d3d3d3;
+}
+.lineup li {
+  float: left;
+  width: 49.9%;
+  background: #f3f3f3;
+  border-top: 1px solid #d3d3d3;
+  border-left: 1px solid #f3f3f3;
+}
+.lineup li:nth-child(2n) {
+  border-color: #d3d3d3;
+}
+.lineup li a {
+  display: block;
+}
+
+/*-----------------------------------
+related
+-----------------------------------*/
+.related {
+  margin: 10% 0 13%;
+  padding: 6% 0;
+  border-top: 1px solid #a7a7a7;
+  border-bottom: 1px solid #a7a7a7;
+}
+.related_label {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.relatedlist {
+/*  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;*/
+}
+.relatedlist_item {
+  float: left;
+  text-align: center;
+/*  width: 33.333%;*/
+	width: 50%;
+}
+.relatedlist_item:nth-child(3n+1){
+  clear: left;
+}
+.relatedlist_item a {
+  display: block;
+  padding: 10% 0;
+}
+.relatedlist_item img {
+/*  width: 69px;*/
+    height: 30px;
+}
+
+/*-----------------------------------
+philosophy
+-----------------------------------*/
+.philosophy_inner {
+  min-height: 289px;
+  padding-bottom: 12%;
+  text-align: center;
+  color: #fff;
+  background: url(../../images_mobile/top/img_phyilosophy_01.jpg) no-repeat 0 0;
+  -moz-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+.philosophy_logo {
+  padding: 7.6% 0 4%;
+  font-size: 1.571rem;
+  font-weight: bold;
+  letter-spacing: .14rem;
+}
+.philosophy_copy {
+  margin-bottom: 4%;
+  font-size: 1.143rem;
+  line-height: 2.5;
+  letter-spacing: .02rem;
+}
+.philosophy_btn {
+  margin: 0 6%;
+}
+.philosophy_btn > a {
+  color: #fff;
+  border-color: #fff;
+}
+.philosophy_btn > a span::before {
+  border-color: #fff;
+}
+
+/*-----------------------------------
+techonology
+-----------------------------------*/
+.technology_inner {
+  min-height: 289px;
+  padding-bottom: 7%;
+  text-align: center;
+  background: url(../../images_mobile/top/img_technology_01.jpg) no-repeat 0 0;
+  -moz-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+.technology_logo {
+  padding: 8.5% 0 4%;
+  font-size: 1.571rem;
+  font-weight: bold;
+  letter-spacing: .14rem;
+}
+.technology_name {
+  font-size: 1.571rem;
+  font-weight: bold;
+}
+.technology_copy {
+  font-size: 1.143rem;
+  margin: 3% 0 5%;
+  line-height: 2;
+  letter-spacing: .02rem;
+}
+.technology_btn {
+  margin: 0 6%;
+}
+
+/*-----------------------------------
+supportColumnWrap
+-----------------------------------*/
+.supportColumnWrap .supportDetailList li {
+  text-indent: 0;
+}
+.supportColumnWrap .supportDetailList li > a {
+  padding: 4% 3.125%;
+}
+
+/* bx-slider */
+.bx-wrapper {
+  margin: 0 auto;
+}
+.bx-wrapper .bx-pager {
+  bottom: 14px;
+  padding-top: 0;
+}
+
+
+
+
+.specialColumn_image{
+  position: relative;
+}
+.specialColumn_imageCaver{
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.specialColumn_image iframe{
+  max-width: 480px;
+}
+
+.newscolumn_left{
+  width: 105px;
+  padding: 10px 0 10px 10px;
+}

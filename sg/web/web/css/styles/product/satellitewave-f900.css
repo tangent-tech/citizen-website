@@ -1,0 +1,264 @@
+
+@charset "utf-8";
+
+.main {
+  margin-top: 20px;
+}
+
+/* keyvisualBlock */
+.keyvisualBlock {
+  background-color: #f4f4f4;
+}
+.keyvisual_inner {
+  position: relative;
+  width: 1000px;
+  height: 560px;
+  margin: 0 auto;
+	background: url(/product/satellitewave-f900/images/img_satellitewave-f900_01.jpg) no-repeat center 0;
+}
+.keyvisual_logo {
+  position: absolute;
+  top: 43px;
+  left: 46px;
+}
+.keyvisual_copy {
+  position: absolute;
+  top: 163px;
+  left: 46px;
+  font-size: 2.1rem;
+  line-height: 1.3;
+}
+.keyvisual_copy::before,
+.keyvisual_copy::after{
+  width: 50px;
+  content: '';
+  border-top: 1px solid #000;
+  display: block;
+  margin: 0 0 10px;
+}
+.keyvisual_copy::after{
+  margin: 10px 0 0;
+}
+.keyvisual_text {
+  position: absolute;
+  top: 275px;
+  left: 46px;
+}
+.keyvisual_text > p {
+  font-size: .95rem;
+  line-height: 1.6;
+}
+.keyvisual_text > p + p {
+  margin-top: 15px;
+}
+
+/* recommend_tab */
+.recommend_tab {
+  margin-bottom: 32px;
+}
+.recommend_tab_item {
+  display: table;
+  float: left;
+  width: 326px;
+}
+.recommend_tab_item + .recommend_tab_item {
+  margin-left: 11px;
+  margin-bottom: 11px;
+}
+.recommend_tab_item:nth-child(4){
+  margin-left: 0;
+}
+.recommend_tab_item > a {
+  display: table-cell;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  height: 60px;
+  background-color: #f5f5f5;
+}
+.recommend_tab_item > a:hover {
+  text-decoration: none;
+}
+.recommend_tab_item.active > a {
+  background-color: #cfcfcf;
+}
+
+/* lineup */
+.lineupWrap + .lineupWrap {
+  margin-top: 75px;
+}
+.lineupWrap .column {
+  width: 200px;
+}
+.lineup_inner {
+  margin: 0 10px;
+}
+.column:first-child + .column .lineup_inner {
+  margin-left: 5px;
+}
+.column:last-child .lineup_inner {
+  margin-left: 15px;
+  margin-right: 0;
+}
+.column:first-child .lineup_inner {
+  margin-left: 0;
+  margin-right: 15px;
+}
+
+.column:nth-child(3) .lineup_inner {
+  margin-right: 7px;
+  margin-left: 8px;
+}
+.column:nth-child(4) .lineup_inner {
+  margin-right: 5px;
+}
+.lineup_image {
+  text-align: center;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e7e7e7;
+}
+.lineup_image {
+  text-align: center;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e7e7e7;
+}
+.lineup_brand {
+  font-size: 1.143rem;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+.lineup_number {
+  font-size: 1.143rem;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+.lineup_price {
+  margin-bottom: 5px;
+}
+.lineup_moreButton {
+  width: 380px;
+  margin: 90px auto 0;
+}
+.lineup_moreButton > a {
+  padding: 15px;
+}
+.columnWrap.column5.lineupTopWrap {
+  display: block;
+  opacity: 1;
+}
+
+/* technology */
+.tech_slider_text {
+  float: left;
+  width: 448px;
+  padding: 46px 40px 10px 100px;
+}
+.tech_slider_heading {
+  position: relative;
+  font-size: 1.429rem;
+  margin-bottom: 5px;
+}
+.tech {
+  padding-bottom: 100px;
+  background-color: #f0f0f0;
+}
+.tech_slider_heading::after {
+  content: "―";
+  display: block;
+}
+.tech_slider_image {
+  float: left;
+  width: 552px;
+}
+.tech_slider_detail {
+  font-size: 0.858rem;
+  line-height: 2;
+  margin-bottom: 10px;
+}
+.tech_slider_button {
+  width: 192px;
+  margin-bottom: 30px;
+}
+.tech_slider_button > a {
+  padding: 8px 10px;
+}
+.tech_slider_button > a::before {
+  margin-right: 5px;
+}
+.text_slider_caution {
+  font-size: .714rem;
+  text-indent: -1.85em;
+  margin-left: 1.85em;
+}
+.tech_slider_pager_item {
+  display: table;
+  float: left;
+  width: 244px;
+}
+.tech_slider_pager_item + .tech_slider_pager_item:not(:nth-child(5)) {
+  margin-left: 8px;
+}
+.tech_slider_pager_item:nth-child(4) ~ .tech_slider_pager_item {
+  margin-top: 8px;
+}
+.tech_slider_pager_item > a {
+  display: table-cell;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  height: 70px;
+  background-color: #fff;
+}
+.tech_slider_pager_item > a:hover {
+  text-decoration: none;
+}
+.tech_slider_pager_item > .active {
+  background-color: #cfcfcf;
+}
+
+/* news */
+.newscolumn_detail {
+  padding-left: 0;
+  color: #000;
+}
+.newscolumn_left {
+  vertical-align: bottom;
+}
+.newsColumnWrap .icon_categoryBadge {
+  margin-bottom: 10px;
+}
+
+/* guide */
+.guide {
+  margin-top: 70px;
+  padding: 60px 0;
+  background-color: #f0f0f0;
+}
+
+/* special */
+.specialWrap .column {
+  width: 480px;
+}
+.specialWrap .column + .column {
+  margin-left: 40px;
+}
+.specialWrap.last {
+  margin-bottom: 50px;
+}
+.special_image {
+  margin-bottom: 15px;
+  position: relative;
+}
+.specialColumn_imageCaver{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.bx-wrapper .bx-controls-direction a{
+  z-index: 1;
+}

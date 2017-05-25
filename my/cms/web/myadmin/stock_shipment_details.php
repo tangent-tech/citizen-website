@@ -1,0 +1,35 @@
+<?php
+define('IN_CMS', true);
+require_once('../common/config.php');
+require_once('../common/common.php');
+require_once('../common/function.php');
+require_once('../common/content_admin_header.php');
+require_once('../common/header_order.php');
+//include_once(FCK_BASEPATH . "/fckeditor.php");
+
+if (!($Site['site_module_inventory_enable'] == 'Y' || $Site['site_module_inventory_partial_shipment'] == 'Y'))
+	AdminDie(ADMIN_ERROR_INVALID_INTERNAL_DATA_ERROR, 'order_list.php', __LINE__);
+
+$smarty->assign('CurrentTab', 'order');
+$smarty->assign('CurrentTab2', 'order_shipment_list');
+$smarty->assign('MyJS', 'order_details');
+
+$StockTransaction = inventory::GetStockTransactionInfo($_REQUEST['id']);
+if ($StockTransaction['site_id'] != $_SESSION['site_id'])
+	AdminDie(ADMIN_ERROR_INVALID_INTERNAL_DATA_ERROR, 'stock_transaction_list.php', __LINE__);
+$smarty->assign('StockTransaction', $StockTransaction);
+
+$StockTransactionProducts = inventory::GetStockTransactionProducts($_REQUEST['id'], $Site['site_default_language_id']);
+$smarty->assign('StockTransactionProducts', $StockTransactionProducts);
+
+$HongKongDistrict = country::GetHongKongDistrictInfo($StockTransaction['shipment_hk_district_id']);
+$smarty->assign('HongKongDistrict', $HongKongDistrict);
+
+$ShipmentCountry = country::GetCountryInfo($StockTransaction['shipment_country_id']);
+$smarty->assign('ShipmentCountry', $ShipmentCountry);
+
+$ProductFieldsShow = site::GetProductFieldsShow($_SESSION['site_id']);
+$smarty->assign('ProductFieldsShow', $ProductFieldsShow);
+
+$smarty->assign('TITLE', 'Shipment Details');
+$smarty->display('myadmin/' . $CurrentLang['language_id'] . '/stock_shipment_details.tpl');

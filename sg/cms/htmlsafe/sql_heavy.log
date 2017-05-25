@@ -1,0 +1,68 @@
+URL: http://citizen-cms.uat.my/api/product_search.php?api_login=citizenweb&api_key=4b1835ee5a1f46a4e0c3d2148129990b&product_category_id=272563&security_level=0&page_no=4&objects_per_page=10&lang_id=1&include_sub_category=Y&product_custom_int_1=1&order_by_object_link_order_id=asc&return_product_category_list=Y
+Time used: 0.53418016433716
+INSERT INTO api_stats 	SET			site_id = '206', 				filename = '/var/www/apps/citizen/cms_citizen/web/api/product_search.php', 				remark = '', 				counter = 1 	ON DUPLICATE KEY UPDATE counter = counter + 1
+
+URL: http://citizen-cms.uat.my/api/product_category_info.php?api_login=citizenweb&api_key=4b1835ee5a1f46a4e0c3d2148129990b&link_id=212356&max_depth=3&page_no=1&products_per_page=0&security_level=0&lang_id=2&currency_id=15&category_order_by=order_id&category_order_type=ASC&include_product_details=N&include_product_brand_details=N
+Time used: 0.5707380771637
+INSERT INTO api_stats 	SET			site_id = '206', 				filename = '/var/www/apps/citizen/cms_citizen/web/api/product_category_info.php', 				remark = '', 				counter = 1 	ON DUPLICATE KEY UPDATE counter = counter + 1
+
+URL: http://citizen-cms.uat.my/api/product_category_info.php?api_login=citizenweb&api_key=4b1835ee5a1f46a4e0c3d2148129990b&link_id=212356&max_depth=3&page_no=1&products_per_page=0&security_level=0&lang_id=1&currency_id=15&category_order_by=order_id&category_order_type=ASC&include_product_details=N&include_product_brand_details=N
+Time used: 0.70213603973389
+INSERT INTO api_stats 	SET			site_id = '206', 				filename = '/var/www/apps/citizen/cms_citizen/web/api/product_category_info.php', 				remark = '', 				counter = 1 	ON DUPLICATE KEY UPDATE counter = counter + 1
+
+URL: http://citizen-cms.uat.my/api/product_get_info.php?api_login=citizenweb&api_key=4b1835ee5a1f46a4e0c3d2148129990b&link_id=219487&lang_id=1&currency_id=14
+Time used: 0.5482759475708
+INSERT INTO api_stats 	SET			site_id = '206', 				filename = '/var/www/apps/citizen/cms_citizen/web/api/product_get_info.php', 				remark = '', 				counter = 1 	ON DUPLICATE KEY UPDATE counter = counter + 1
+
+URL: http://citizen-cms.uat.my/api/product_category_info.php?api_login=citizenweb&api_key=4b1835ee5a1f46a4e0c3d2148129990b&link_id=212356&max_depth=3&page_no=1&products_per_page=0&security_level=0&lang_id=1&currency_id=15&category_order_by=order_id&category_order_type=ASC&include_product_details=N&include_product_brand_details=N
+Time used: 0.60504102706909
+INSERT INTO api_stats 	SET			site_id = '206', 				filename = '/var/www/apps/citizen/cms_citizen/web/api/product_category_info.php', 				remark = '', 				counter = 1 	ON DUPLICATE KEY UPDATE counter = counter + 1
+
+URL: http://citizen-cms.uat.my/api/product_get_info.php?api_login=citizenweb&api_key=4b1835ee5a1f46a4e0c3d2148129990b&link_id=219223&lang_id=1&currency_id=14
+Time used: 0.67523598670959
+INSERT INTO api_stats 	SET			site_id = '206', 				filename = '/var/www/apps/citizen/cms_citizen/web/api/product_get_info.php', 				remark = '', 				counter = 1 	ON DUPLICATE KEY UPDATE counter = counter + 1
+
+URL: http://citizen-cms.uat.my/api/product_get_info.php?api_login=citizenweb&api_key=4b1835ee5a1f46a4e0c3d2148129990b&link_id=214676&lang_id=1&currency_id=14
+Time used: 1.0848679542542
+INSERT INTO api_stats 	SET			site_id = '206', 				filename = '/var/www/apps/citizen/cms_citizen/web/api/product_get_info.php', 				remark = '', 				counter = 1 	ON DUPLICATE KEY UPDATE counter = counter + 1
+
+URL: http://citizen-cms.uat.my/myadmin/product_edit_act.php
+Time used: 0.61198019981384
+INSERT INTO	callback_log 	SET		id_1				= 	NULL, 			id_2				= 	NULL, 			id_3				= 	NULL, 			string_1			= 	'Empty Cache', 			string_2			= 	'NULL', 			string_3			= 	'NULL', 			callback_result		= 	'Cache is cleaned', 			callback_datetime	= 	'2017-04-13 11:22:52', 			callback_hard_fail	=	'N', 			site_id				=	'206'
+
+URL: http://sg.citizen-cms.uat.my/api/product_category_info.php?api_login=citizenweb&api_key=4b1835ee5a1f46a4e0c3d2148129990b&link_id=212356&max_depth=1&page_no=1&products_per_page=0&security_level=0&lang_id=1&currency_id=14&category_order_by=order_id&category_order_type=ASC&include_product_details=N&include_product_brand_details=N
+Time used: 0.51941609382629
+INSERT INTO api_stats 	SET			site_id = '206', 				filename = '/var/www/apps/citizen/sg/cms/web/api/product_category_info.php', 				remark = '', 				counter = 1 	ON DUPLICATE KEY UPDATE counter = counter + 1
+
+URL: http://sg.citizen-cms.uat.my/myadmin/product_edit_act.php
+Time used: 0.58569717407227
+INSERT INTO	callback_log 	SET		id_1				= 	NULL, 			id_2				= 	NULL, 			id_3				= 	NULL, 			string_1			= 	'Empty Cache', 			string_2			= 	'NULL', 			string_3			= 	'NULL', 			callback_result		= 	'Cache is cleaned', 			callback_datetime	= 	'2017-04-26 05:17:37', 			callback_hard_fail	=	'N', 			site_id				=	'206'
+
+URL: http://sg.citizen-cms.uat.my/myadmin/media_add_act.php
+Time used: 0.52944993972778
+INSERT INTO	callback_log 	SET		id_1				= 	NULL, 			id_2				= 	NULL, 			id_3				= 	NULL, 			string_1			= 	'Empty Cache', 			string_2			= 	'NULL', 			string_3			= 	'NULL', 			callback_result		= 	'Cache is cleaned', 			callback_datetime	= 	'2017-04-27 09:00:16', 			callback_hard_fail	=	'N', 			site_id				=	'206'
+
+URL: http://sg.citizen-cms.uat.my/myadmin/product_brand_add_act.php
+Time used: 0.61207699775696
+INSERT INTO	callback_log 	SET		id_1				= 	NULL, 			id_2				= 	NULL, 			id_3				= 	NULL, 			string_1			= 	'Empty Cache', 			string_2			= 	'NULL', 			string_3			= 	'NULL', 			callback_result		= 	'Cache is cleaned', 			callback_datetime	= 	'2017-04-27 10:16:56', 			callback_hard_fail	=	'N', 			site_id				=	'206'
+
+URL: http://sg.citizen-cms.uat.my/myadmin/product_edit_act.php
+Time used: 0.77709698677063
+DELETE FROM	object_link 	WHERE		parent_object_id	= '276492'			AND	object_id 			= '286031'
+
+URL: http://sg.citizen-cms.uat.my/myadmin/product_edit_act.php
+Time used: 0.90789198875427
+INSERT INTO	callback_log 	SET		id_1				= 	NULL, 			id_2				= 	NULL, 			id_3				= 	NULL, 			string_1			= 	'Empty Cache', 			string_2			= 	'NULL', 			string_3			= 	'NULL', 			callback_result		= 	'Cache is cleaned', 			callback_datetime	= 	'2017-04-27 11:01:07', 			callback_hard_fail	=	'N', 			site_id				=	'206'
+
+URL: http://sg.citizen-cms.uat.my/api/currency_info.php?api_login=citizenweb&api_key=4b1835ee5a1f46a4e0c3d2148129990b&currency_id=14
+Time used: 2.1153931617737
+INSERT INTO api_stats 	SET			site_id = '206', 				filename = '/var/www/apps/citizen/sg/cms/web/api/currency_info.php', 				remark = '', 				counter = 1 	ON DUPLICATE KEY UPDATE counter = counter + 1
+
+URL: http://sg.citizen-cms.uat.my/api/seo_get_structured_seo_url_info.php?api_login=citizenweb&api_key=4b1835ee5a1f46a4e0c3d2148129990b&structured_seo_url=html/en/menu/store-location.html
+Time used: 0.54630303382874
+INSERT INTO api_stats 	SET			site_id = '206', 				filename = '/var/www/apps/citizen/sg/cms/web/api/seo_get_structured_seo_url_info.php', 				remark = '', 				counter = 1 	ON DUPLICATE KEY UPDATE counter = counter + 1
+
+URL: http://sg.citizen-cms.uat.my/api/product_category_info.php?api_login=citizenweb&api_key=4b1835ee5a1f46a4e0c3d2148129990b&link_id=213745&max_depth=2&page_no=1&products_per_page=9999&security_level=0&lang_id=1&currency_id=14&product_order_by=order_id&product_order_type=ASC&category_order_by=order_id&category_order_type=ASC&include_product_details=Y&include_product_brand_details=Y
+Time used: 0.66570806503296
+SELECT	SQL_CALC_FOUND_ROWS *, O.*, D.*, P.*, OL.* 	FROM	object_link	OL	JOIN		object O		ON (O.object_id = OL.object_id AND OL.parent_object_id = '283023')							JOIN		product P		ON (P.product_id = O.object_id) 							LEFT JOIN	product_data D	ON (P.product_id = D.product_id AND D.language_id = '1')	WHERE	O.object_is_enable = 'Y' 		AND OL.object_link_is_enable = 'Y' 		AND	O.object_security_level <= '0'	GROUP BY OL.shadow_parent_id 	ORDER BY OL.order_id  ASC	LIMIT	0, 9999
+

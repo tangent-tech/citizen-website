@@ -1,0 +1,9 @@
+<discount_bundle_condition>
+	<discount_bundle_rule_id>{$Object.discount_bundle_rule_id}</discount_bundle_rule_id>
+	<discount_bundle_item_condition_type_id>{$Object.discount_bundle_item_condition_type_id}</discount_bundle_item_condition_type_id>
+	<discount_bundle_item_condition_product_category_id>{$Object.discount_bundle_item_condition_product_category_id}</discount_bundle_item_condition_product_category_id>
+	<discount_bundle_item_condition_product_id>{$Object.discount_bundle_item_condition_product_id}</discount_bundle_item_condition_product_id>
+	<discount_bundle_item_condition_include_sub_category>{$Object.discount_bundle_discount3_add_price}</discount_bundle_item_condition_include_sub_category>
+	<discount_bundle_item_condition_quantity>{$Object.discount_bundle_item_condition_quantity}</discount_bundle_item_condition_quantity>
+	<product_list>{$ProductListXML}</product_list>
+</discount_bundle_condition>

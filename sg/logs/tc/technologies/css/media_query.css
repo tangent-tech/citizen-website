@@ -1,0 +1,1575 @@
+@charset 'UTF-8';
+@media only screen and (min-width: 1000px){
+    .nonScroll{
+        overflow: hidden;
+    }
+    .scroll{
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+}
+@media only screen and (max-width: 800px){
+    sub,
+    sup{
+        font-size: 50% !important;
+    }
+    body{
+        min-width: 0;
+    }
+    .scroll{
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    .nonScroll {
+        overflow: hidden;
+    }
+    .commonNoticeTxt {
+        font-size: 9px;
+        padding: 35px 0 0;
+    }
+    /*
+    ---------------------------------------------------------------------------------------
+        CONTENT - [COMMON]
+    ---------------------------------------------------------------------------------------
+    */
+    .wrapper,
+    .toTopWrapper{
+        width: auto;
+        margin: 0 6.25%;
+    }
+    .toTopWrapper a{
+        padding: 20px 0;
+    }
+    .toTopWrapper a img{
+        width: 45%;
+    }
+    .spNonBr{
+        display: none;
+    }
+    .spBr{
+        display: inline;
+    }
+    .mvContent .contentSubTrigger .icon{
+        display: none;
+    }
+    .mark{
+        font-size: 12px !important;
+    }
+    /*
+    ---------------------------------------------------------------------------------------
+        CONTENT - [Header]
+    ---------------------------------------------------------------------------------------
+    */
+    #header{
+        display: none;
+    }
+    #spHeader{
+        display: block;
+    }
+    /*
+    ---------------------------------------------------------------------------------------
+        CONTENT - [Main Content]
+    ---------------------------------------------------------------------------------------
+    */
+    .articleBlock{
+        padding: 20px 0;
+    }
+    .articleBlock .ttl{
+        font-size: 17px;
+        line-height: 17px;
+    }
+    .articleBlock .subTtl{
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .articleBlock .subTtl:before,
+    .articleBlock .subTtl:after{
+        display: block;
+        width: 32px;
+        height: 1px;
+        background-color: #000;
+        content: '';
+        margin: 17px 0;
+    }
+    .articleBlock .subAfterSplit:after,
+    .articleBlock .subBeforeSplit:before{
+        display: block;
+        width: 32px;
+        height: 1px;
+        background-color: #000;
+        content: '';
+        margin: 10px 0;
+    }
+    .articleBlock .txt{
+        font-size: 10px;
+        line-height: 17px;
+    }
+    .articleBlock  .noticeIdxCell,
+    .articleBlock  .noticeTxtCell{
+        line-height: 15px;
+    }
+    .mvContent .articleSplit{
+        border: none;
+    }
+    .mvContent .wrapper .bgTxt{
+        font-size: 12px;
+        line-height: 17px;
+        color: #fff;
+    }
+    /* Main Content [1-1] */
+    #subView1_1{
+        width: 100%;
+        background-position: right bottom;
+        background-repeat: no-repeat;
+        background-size: 55% auto;
+    }
+    #subView1_1 img{
+        padding: 0 0 100px;
+    }
+    /* Main Content [1-2] */
+    #subView1_2 .articleBlock{
+        padding: 15px 0 75px;
+    }
+    #subView1_2 .articleBlock .ttl{
+        font-size: 15px;
+    }
+    #subView1_2 .articleBlock .txt{
+        font-size: 9px;
+        line-height: 15px;
+    }
+    #subView1_2 .leftSide{
+        width: 73.4375%;
+    }
+    #subView1_2 .rightSide{
+        text-align: right;
+        width: auto;
+        vertical-align: top !important;
+    }
+    #subView1_2 .rightSide span.first{
+        padding: 0;
+        margin: 0 0 10px;
+    }
+    #subView1_2 .rightSide span{
+        display: block;
+    }
+    #subView1_2 .rightSide img{
+        width: 65%;
+    }
+    /* Main Content [1-3] */
+    #contentSubTrigger1_1 .bg{
+        background-image: url(../images/sp/content/1/3/1.jpg);
+        width: 100%;
+        height: 50px;
+        min-height: 50px;
+    }
+    #subView1_3 .articleBlock {
+        padding: 20px 0 75px;
+    }
+    #subView1_3 .leftSide,
+    #subView1_3 .rightSide{
+        width: auto;
+        display: block !important;
+    }
+    #subView1_3 .rightSide{
+        padding: 10px 0 0 0;
+    }
+    #subView1_3 .rightSide img{
+        width: 100%;
+    }
+    /* Main Content [1-4] */
+    #subView1_4 .articleBlock {
+        padding: 20px 0 75px;
+    }
+    #subView1_4 .articleBlock .ttl{
+        font-size: 15px;
+    }
+    #subView1_4 .bg{
+        background-image: url(../images/sp/content/1/4/1.jpg);
+        height: 110px;
+        width: 100%;
+    }
+    /* Main Content [1-5] */
+    #subView1_5 .articleBlock{
+        padding: 20px 0 70px;
+    }
+    #subView1_5 .articleBlock .ttl{
+        font-size: 15px;
+    }
+    #subView1_5 .bg{
+        background-image: url(../images/sp/content/1/5/1.jpg);
+        height: 110px;
+        width: 100%;
+    }
+    #subView1_5 .bg .wrapper{
+        text-align: left;
+    }
+    /* Main Content [1-6] */
+    #subView1_6 .articleBlock{
+        padding: 20px 0 15px;
+    }
+    #subView1_6 .articleBlock .ttl{
+        font-size: 15px;
+    }
+    #contentSubTrigger1_2 .bg{
+        background-image: url(../images/sp/content/1/6/1.png);
+        background-position: center center;
+        height: 50px;
+        width: 100%;
+    }
+    /* Main Content [1-7] */
+    #subView1_7 .articleBlock{
+        padding: 15px 0 0;
+    }
+    #subView1_7 .articleBlock .ttl{
+        font-size: 15px;
+    }
+    #subView1_7 .leftSide,
+    #subView1_7 .rightSide{
+        display: block;
+        padding: 0;
+    }
+    #subView1_7 .leftSide{
+        padding: 0 0 17.5px 0;
+    }
+    #subView1_7 .rightSide{
+        padding: 0 0 75px;
+    }
+    #subView1_7 .subLeftSide{
+        width: 45%;
+    }
+    #subView1_7 .subLeftSide img{
+        width: 100%;
+    }
+    #subView1_7 .txtWrapper{
+        padding: 0 0 0 15px;
+    }
+    #subView1_7 .txtWrapper .ttl{
+        font-size: 12px;
+        line-height: 12px;
+    }
+    #subView1_7 .articleBlock .subBeforeSplit:before{
+        margin: 12px 0;
+    }
+    /* Main Content [1-8] */
+    #subView1_8 .articleBlock{
+        padding: 0 0 35px;
+    }
+    #subView1_8 .articleBlock .ttl{
+        font-size: 15px;
+    }
+    /* Main Content [1-9] */
+    #subView1_9 .articleBlock{
+        padding: 0 0 75px;
+    }
+    #subView1_9 .articleBlock .ttl{
+        font-size: 15px;
+    }
+    #subView1_9 .articleBlock .subBeforeSplit:before{
+        margin: 10px 0;
+    }
+    #subView1_9 .subArticleBlock{
+        padding: 35px 0 0;
+    }
+    #subView1_9 .leftSide,
+    #subView1_9 .rightSide{
+        width: auto;
+        display: block;
+    }
+    #subView1_9 .rightSide{
+        padding: 35px 0 0;
+    }
+    #subView1_9 .rightSide img{
+        width: 100%;
+    }
+    #subView1_9 .rightSide .imgWrapper .zoom{
+        width: 15px;
+        height: 15px;
+        right: 10px;
+        background-size: 15px 15px;
+        bottom: 0;
+    }
+    #subView1_9 .rightSide .tableLayout{
+        padding: 10px 0 0;
+    }
+    /* Main Content [1-11] */
+    #subView1_11 .articleBlock{
+        padding: 35px 0 75px;
+    }
+    #subView1_11 .articleBlock .ttl{
+        font-size: 15px;
+    }
+    /* Main Content [1-12] */
+    #subView1_12 .articleBlock{
+        padding: 0 0 75px;
+    }
+    #subView1_12 .leftSide,
+    #subView1_12 .rightSide{
+        width: auto;
+        display: block;
+    }
+    #subView1_12 .leftSide{
+        padding: 0 0 15px 0;
+    }
+    #subView1_12 .rightSide{
+        text-align: center;
+        border-bottom: 1px solid #c5c5c5;
+        border-top: 1px solid #c5c5c5;
+    }
+    #subView1_12 .rightSide img{
+        width: 50%;
+        padding: 15px 0;
+        border-left: none;
+    }
+    /* Main Content [1-13] */
+    #subView1_13 .articleBlock{
+        padding: 20px 0 75px;
+    }
+    #contentSubTrigger1_3 .bg{
+        background-image: url(../images/sp/content/1/13/1.jpg);
+        height: 50px;
+        width: 100%;
+    }
+    /* Main Content [1-14] */
+    #subView1_14 .articleBlock{
+        padding: 0 0 75px;
+    }
+    #subView1_14 .leftSide,
+    #subView1_14 .rightSide{
+        width: auto;
+        display: block;
+        padding: 0;
+    }
+    #subView1_14 .rightSide ul{
+        padding: 15px 0 0;
+    }
+    #subView1_14 .rightSide ul li{
+        float: left;
+        width: 50%;
+    }
+    #subView1_14 .rightSide ul li .watchImg{
+        border-bottom: 1px solid #c5c5c5;
+        border-top: 1px solid #c5c5c5;
+    }
+    #subView1_14 .rightSide ul li .watchImg{
+        min-height: 150px;
+    }
+    #subView1_14 .rightSide ul li .watchImg img{
+        width: 89px;
+        height: 147px;
+    }
+    #subView1_14 .rightSide ul li.first .watchImg{
+        border-left: none;
+        padding: 10px 0;
+    }
+    #subView1_14 .rightSide ul li.last .watchImg{
+        border-right: none;
+        padding: 10px 0;
+    }
+    #subView1_14 .rightSide ul li .enStrL{
+        font-size: 15px;
+        line-height: 15px;
+        padding: 10px 0 2px;
+    }
+    #subView1_14 .rightSide ul li .txt{
+        font-size: 10px;
+        line-height: 16px;
+    }
+    #subView1_14 .rightSide ul li .img1{
+        width: 85px;
+        height: 145px;
+    }
+    #subView1_14 .rightSide ul li .img2{
+        width: 89px;
+        height: 147px;
+    }
+    /* Main Content [1-15] */
+    #subView1_15 .articleBlock{
+        padding: 0 0 50px;
+    }
+    #subView1_15 .leftSide,
+    #subView1_15 .rightSide{
+        width: auto;
+        display: block;
+        padding: 0;
+    }
+    #subView1_15 .rightSide ul{
+        padding: 15px 0 0;
+    }
+    #subView1_15 .rightSide ul li .watchImg{
+        padding: 10px 0;
+        border-left: none;
+        border-right: none;
+        border-top: 1px solid #c5c5c5;
+        border-bottom: 1px solid #c5c5c5;
+        min-height: 150px;
+    }
+    #subView1_15 .rightSide ul li .watchImg img{
+        width: 85px;
+        height: 145px;
+    }
+    #subView1_15 .rightSide ul li .enStrL{
+        font-size: 15px;
+        line-height: 15px;
+        padding: 10px 0 2px;
+    }
+    #subView1_15 .rightSide ul li .txt{
+        font-size: 10px;
+        line-height: 16px;
+    }
+    /* Main Content [1-16] */
+    #subView1_16 .articleBlock{
+        padding: 0 0 75px;
+    }
+    #subView1_16 .articleBlock .ttl{
+        font-size: 15px;
+    }
+    #subView1_16 .leftSide,
+    #subView1_16 .rightSide{
+        width: auto;
+        display: block;
+        padding: 0;
+    }
+    #subView1_16 .rightSide{
+        margin: 15px 0 0;
+        padding: 10px 0;
+        border-right: none;
+        border-left: none;
+    }
+    #subView1_16 .rightSide img{
+        width: 45%;
+    }
+    /* Main Content [1-17] */
+    #subView1_17 .articleBlock{
+        padding: 0 0 10px;
+    }
+    /* Main Content [1-18] */
+    #subView1_18 .articleBlock{
+        border-top: 1px solid #c5c5c5;
+        padding: 5px 0 50px;
+    }
+    #subView1_18 .dummyBorder1,
+    #subView1_18 .dummyBorder2{
+        display: none;
+    }
+    #subView1_18 .oldCollectionArea{
+        float: none;
+        padding: 0 0 15px 0;
+        border-bottom: 1px solid #c5c5c5;
+        border-top: 1px solid #c5c5c5;
+    }
+    #subView1_18 .oldCollectionArea:first-child,
+    #subView1_18 .oldCollectionArea:last-child{
+        border-bottom: none;
+        border-top: none;
+    }
+    #subView1_18 .oldCollectionArea:last-child{
+        padding: 0;
+    }
+    #subView1_18 .oldCollectionArea ul li{
+        margin: 0;
+        width: 50%;
+    }
+    #subView1_18 .oldCollectionArea ul li.last{
+        width: 100%;
+    }
+    #subView1_18 ul li .watchImg{
+        min-height: 118px;
+        border-bottom: 1px solid #c5c5c5;
+        padding: 10px 0;
+    }
+    #subView1_18 ul li .watchImg .img1{
+        width: 81px;
+        height: 118px;
+    }
+    #subView1_18 ul li .watchImg .img2{
+        width: 67px;
+        height: 118px;
+    }
+    #subView1_18 ul li .watchImg .img3{
+        width: 49px;
+        height: 118px;
+    }
+    #subView1_18 ul li .watchImg .img4{
+        width: 83px;
+        height: 118px;
+    }
+    #subView1_18 ul li .watchImg .img5{
+        width: 89px;
+        height: 118px;
+    }
+    #subView1_18 ul li .enStrL{
+        font-size: 15px;
+        line-height: 15px;
+        padding: 10px 0 2px;
+    }
+    #subView1_18 ul li .txt{
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    /* Main Content [2-1]*/
+    #subView2_1{
+        background-position: center bottom;
+        background-size: 55% auto;
+    }
+    #subView2_1 .articleBlock{
+        padding: 20px 0 145px;
+    }
+    /* Main Content [2-2] */
+    #subView2_2 .articleBlock .ttl{
+        font-size: 15px;
+    }
+    #subView2_2 .articleBlock{
+        padding: 20px 0 75px;
+    }
+    #contentSubTrigger2_1 .bg{
+        background-image: url(../images/sp/content/2/2/1.jpg);
+        width: 100%;
+        height: 50px;
+        min-height: 50px;
+    }
+    #subView2_2 .leftSide,
+    #subView2_2 .rightSide{
+        width: auto;
+        padding: 0;
+        display: block;
+    }
+    #subView2_2 .rightSide ul li{
+        float: left;
+        width: 49%;
+    }
+    #subView2_2 .rightSide ul li.first{
+        margin: 0 1px 0 0;
+    }
+    #subView2_2 .rightSide ul li img{
+        width: 100%;
+    }
+    #subView2_2 .rightSide .txt1{
+        font-size: 12px;
+        line-height: 15px;
+        padding: 20px 0 5px 0;
+    }
+    #subView2_2 .rightSide .txt2{
+        font-size: 10px;
+        line-height: 15px;
+    }
+    #subView2_2 .rightSide .txt3{
+        font-size: 9px;
+    }
+    #subView2_2 .rightSide .txt4{
+        font-size: 9px;
+        padding: 5px 0 10px;
+    }
+    /* Main Content [2-3] */
+    #subView2_3 .articleBlock .ttl{
+        font-size: 15px;
+    }
+    #subView2_3 .articleBlock{
+        padding: 20px 0 75px;
+    }
+    #subView2_3 .bg{
+        background-image: url(../images/sp/content/2/3/1.jpg);
+        height: 110px;
+    }
+    #subView2_3 .bg .wrapper .bgTxt{
+        padding: 0;
+    }
+    #subView2_3 .leftSide,
+    #subView2_3 .rightSide{
+        width: auto;
+        padding: 0;
+        display: block;
+    }
+    #subView2_3 .rightSide ul li{
+        float: left;
+        width: 50%;
+        margin: 0;
+    }
+    #subView2_3 .rightSide img{
+        width: 100%;
+    }
+    #subView2_3 .rightSide .txt1{
+        font-size: 12px;
+        line-height: 15px;
+        padding: 20px 0 5px 0;
+    }
+    #subView2_3 .rightSide .txt2{
+        font-size: 10px;
+        line-height: 15px;
+    }
+    #subView2_3 .rightSide .txt3{
+        font-size: 9px;
+    }
+    #subView2_3 .rightSide .txt4{
+        font-size: 9px;
+        padding: 5px 0 10px;
+    }
+    /* Main Content [2-4] */
+    #subView2_4 .articleBlock{
+        padding: 20px 0 75px;
+    }
+    #subView2_4 .articleBlock .ttl{
+        font-size: 15px;
+    }
+    #subView2_4 .bg{
+        background-image: url(../images/sp/content/2/4/1.jpg);
+        height: 110px;
+    }
+    #subView2_4 .bg .wrapper .bgTxt{
+        padding: 0;
+    }
+    /* Main Content [2-5] */
+    #subView2_5 .articleBlock{
+        padding: 20px 0 75px;
+    }
+    #subView2_5 .bg{
+        background-image: url(../images/sp/content/2/5/1.jpg);
+        height: 110px;
+    }
+    #subView2_5 .bg .wrapper .bgTxt{
+        padding: 0;
+    }
+    #subView2_5 .leftSide,
+    #subView2_5 .rightSide{
+        width: auto;
+        padding: 0;
+        display: block;
+    }
+    #subView2_5 .rightSide{
+        padding: 10px 0 0;
+    }
+    #subView2_5 .rightSide img{
+        width: 100%;
+    }
+    /* Main Content [2-6] */
+    #subView2_6 .articleBlock{
+        padding: 20px 0 35px;
+    }
+    #subView2_6 .articleBlock .ttl{
+        font-size: 14px;
+    }
+    #contentSubTrigger2_2 .bg{
+        background-image: url(../images/sp/content/2/6/1.png);
+        height: 50px;
+        width: 100%;
+    }
+    /* Main Content [2-7] */
+    #subView2_7 .articleBlock{
+        padding: 0 0 35px;
+    }
+    #subView2_7 .articleBlock .ttl{
+        font-size: 12px;
+    }
+    #subView2_7 .leftSide,
+    #subView2_7 .rightSide{
+        width: auto;
+        padding: 0;
+        display: block;
+    }
+    #subView2_7 .rightSide{
+        padding: 10px 0 0;
+    }
+    #subView2_7 .rightSide img{
+        width: 100%;
+    }
+    /* Main Content [2-8] */
+    #subView2_8 .articleBlock{
+        padding: 0 0 35px;
+    }
+    #subView2_8 .articleBlock .ttl{
+        font-size: 12px;
+    }
+    #subView2_8 .leftSide,
+    #subView2_8 .rightSide{
+        width: auto;
+        padding: 0;
+        display: block;
+    }
+    #subView2_8 .rightSide{
+        padding: 10px 0 0;
+    }
+    #subView2_8 .rightSide img{
+        width: 100%;
+    }
+    /* Main Content [2-9] */
+    #subView2_9 .articleBlock{
+        padding: 0 0 75px;
+    }
+    #subView2_9 .articleBlock .ttl{
+        font-size: 12px;
+    }
+    #subView2_9 .leftSide,
+    #subView2_9 .rightSide{
+        width: auto;
+        padding: 0;
+        display: block;
+    }
+    #subView2_9 .rightSide{
+        padding: 10px 0 0;
+    }
+    #subView2_9 .rightSide img{
+        width: 100%;
+    }
+    /* Main Content [2-10] */
+    #subView2_10 .articleBlock{
+        padding: 0 0 35px;
+    }
+    #subView2_10 .articleBlock .ttl{
+        font-size: 14px;
+    }
+    #subView2_10 .leftSide{
+        margin: 0 0 15px 0;
+    }
+    #subView2_10 .txt1{
+        margin: 0;
+    }
+    #subView2_10 .leftSide,
+    #subView2_10 .rightSide{
+        width: auto;
+        padding: 0;
+        display: block;
+    }
+    #subView2_10 .rightSide{
+        padding: 0;
+        margin: 35px 0 55px;
+    }
+    #subView2_10 .rightSide .imgWrapper .zoom{
+        width: 15px;
+        height: 15px;
+        right: 3%;
+        background-size: 15px 15px;
+        bottom: -15px;
+    }
+    #subView2_10 .rightSide img{
+        width: 100%;
+        height: auto;
+    }
+    #subView2_10 .rightSide .imgTtl{
+        font-size: 14px;
+    }
+    #subView2_10 .subImg1 img{
+        width: 85%;
+        height: auto;
+    }
+    #subView2_10 .caption{
+        font-size: 10px;
+        margin: 5px 0 15px;
+    }
+    #subView2_10 .subCaption{
+        font-size: 10px;
+    }
+    #subView2_10 .imgTtl2{
+        font-size: 14px;
+        margin: 0 0 10px 0;
+    }
+    #figureArea{
+        margin: 25px 0 10px;
+    }
+    #figureArea .pc{
+        display: none;
+    }
+    #figureArea .sp{
+        display: block;
+    }
+    /* Main Content [2-11] */
+    /* Main Content [2-gallery] */
+/*    #subView2_gallery .articleBlock{
+        padding: 0 0 75px;
+    }
+    #subView2_gallery .articleBlock .ttl{
+        font-size: 12px;
+    }
+    #subView2_gallery .articleBlock .txt1{
+        padding: 5px 0 15px;
+        font-size: 10px;
+    }
+    #subView2_gallery ul{
+        padding: 0;
+    }
+    #subView2_gallery ul li{
+        width: 48%;
+        margin: 0 0 10px 0;
+    }
+    #subView2_gallery ul li:first-child,
+    #subView2_gallery ul li:nth-child(3n){
+        margin: 0 1% 10px 0;
+    }
+    #subView2_gallery ul li .zoom{
+        width: 15px;
+        height: 15px;
+        background-size: 15px 15px;
+        right: 5px;
+        bottom: 5px;
+    }
+    #subView2_gallery ul li .jpStr{
+        padding: 5px 0 0;
+        font-size: 10px;
+    }
+    #subView2_gallery ul li img{
+        width: 100%;
+        height: auto;
+    }*/
+    /* Duratect Detail */
+    #duratectDetailView{
+        padding: 0 0 70px 0;
+    }
+    #contentSubTrigger2_3 .bgTxt{
+        font-size: 11px;
+    }
+    #subViewWrapper2_3{
+        padding: 30px 0 0;
+    }
+    #subViewWrapper2_3 .buffer{
+        margin: 25px 0 0;
+    }
+    #subViewWrapper2_3 .articleBlock{
+        padding: 0 0 25px;
+    }
+    #subViewWrapper2_3 .leftSide,
+    #subViewWrapper2_3 .rightSide{
+        width: auto;
+        padding: 0;
+        display: block;
+    }
+    #subViewWrapper2_3 .rightSide{
+        padding: 10px 0 0;
+    }
+    #subViewWrapper2_3 .rightSide ul li img{
+        height: auto;
+        width: 55px;
+    }
+    #subViewWrapper2_3 .rightSide p.txt{
+        font-size: 10px;
+    }
+    #subViewWrapper2_3 .ttl{
+        font-size: 14px;
+    }
+    #subViewWrapper2_3 .subCategory .ttl{
+        font-size: 12px;
+    }
+
+    /* Main Content [2-12] */
+    #subView2_12 .articleBlock{
+        padding: 20px 0 75px;
+    }
+    #contentSubTrigger2_4 .bg{
+        background-image: url(../images/sp/content/2/12/1.jpg);
+        height: 50px;
+        width: 100%;
+    }
+    /* Main Content [2-13] */
+    #subView2_13 .articleBlock{
+        padding: 0 0 75px;
+    }
+    #subView2_13 .leftSide,
+    #subView2_13 .rightSide{
+        width: auto;
+        display: block;
+        padding: 0;
+    }
+    #subView2_13 .rightSide ul{
+        padding: 15px 0 0;
+    }
+    #subView2_13 .rightSide ul li .watchImg{
+        padding: 10px 0;
+        border-left: none;
+        border-right: none;
+        border-top: 1px solid #c5c5c5;
+        border-bottom: 1px solid #c5c5c5;
+        min-height: 150px;
+    }
+    #subView2_13 .rightSide ul li .watchImg img{
+        width: 83px;
+        height: 148px;
+    }
+    #subView2_13 .rightSide ul li .enStrL{
+        font-size: 15px;
+        line-height: 15px;
+        padding: 10px 0 2px;
+    }
+    #subView2_13 .rightSide ul li .txt{
+        font-size: 10px;
+        line-height: 16px;
+    }
+    #subView2_13 .rightSide ul li .supTxt {
+        font-size: 9px;
+        padding: 0 0 2px;
+    }
+    /* Main Content [2-14] */
+    #subView2_14 .articleBlock{
+        padding: 0 0 75px;
+    }
+    #subView2_14 .leftSide,
+    #subView2_14 .rightSide{
+        width: auto;
+        display: block;
+        padding: 0;
+    }
+    #subView2_14 .rightSide ul{
+        padding: 15px 0 0;
+    }
+    #subView2_14 .rightSide ul li .watchImg{
+        padding: 10px 0;
+        border-left: none;
+        border-right: none;
+        border-top: 1px solid #c5c5c5;
+        border-bottom: 1px solid #c5c5c5;
+    }
+    #subView2_14 .rightSide ul li .watchImg img{
+        width: 70px;
+        height: 147px;
+    }
+    #subView2_14 .rightSide ul li .enStrL{
+        font-size: 15px;
+        line-height: 15px;
+        padding: 10px 0 2px;
+    }
+    #subView2_14 .rightSide ul li .txt{
+        font-size: 10px;
+        line-height: 16px;
+    }
+    /* Main Content [2-15] */
+    #subView2_15 .articleBlock {
+        padding: 0 0 10px;
+    }
+    /* Main Content [2-16] */
+    #subView2_16 .articleBlock{
+        border-top: 1px solid #c5c5c5;
+        padding: 5px 0 50px;
+    }
+    #subView2_16 .dummyBorder1,
+    #subView2_16 .dummyBorder2{
+        display: none;
+    }
+    #subView2_16 .oldCollectionArea{
+        float: none;
+        padding: 0 0 15px 0;
+        border-bottom: 1px solid #c5c5c5;
+        border-top: 1px solid #c5c5c5;
+    }
+    #subView2_16 .oldCollectionArea:first-child,
+    #subView2_16 .oldCollectionArea:last-child{
+        border-bottom: none;
+        border-top: none;
+    }
+    #subView2_16 .oldCollectionArea:last-child{
+        padding: 0;
+    }
+    #subView2_16 .oldCollectionArea ul li{
+        margin: 0;
+        width: 50%;
+    }
+    #subView2_16 .oldCollectionArea ul li.last{
+        width: 100%;
+    }
+    #subView2_16 ul li .watchImg{
+        min-height: 118px;
+        border-bottom: 1px solid #c5c5c5;
+        padding: 10px 0;
+    }
+    #subView2_16 ul li .watchImg .img1{
+        width: 87px;
+        height: 118px;
+    }
+    #subView2_16 ul li .watchImg .img2{
+        width: 50px;
+        height: 118px;
+    }
+    #subView2_16 ul li .watchImg .img3{
+        width: 60px;
+        height: 118px;
+    }
+    #subView2_16 ul li .watchImg .img4{
+        width: 76px;
+        height: 118px;
+    }
+    #subView2_16 ul li .watchImg .img5{
+        width: 85px;
+        height: 118px;
+    }
+    #subView2_16 ul li .enStrL{
+        font-size: 15px;
+        line-height: 15px;
+        padding: 10px 0 2px;
+    }
+    #subView2_16 ul li .txt{
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    #mvContent3 .tabLink{
+        height: 40px;
+    }
+    #mvContent3 .tabLink .tabTxt{
+        padding: 0 0 2px 0;
+        font-size: 10px;
+    }
+    #tabs{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 100;
+        width: 100%;
+        height: 40px;
+    }
+    #tabsContentWrapper{
+        padding: 0;
+    }
+
+    /* Main Content [3-1] */
+    #subView3_1{
+        background-position: center bottom;
+        background-size: 55% auto;
+    }
+    #subView3_1 .articleBlock{
+        padding: 20px 0 45%;
+    }
+
+
+    /* Main Content [3-2] */
+    #contentSubTrigger3_1 .bg{
+        background-image: url(../images/sp/content/3/tab/1/2/1.jpg);
+        height: 50px;
+        min-height: 50px;
+        width: 100%;
+    }
+    #contentSubTrigger3_1 .bg .wrapper .bgTxt{
+        padding: 0 !important;
+    }
+    #subView3_2 .articleBlock{
+        padding: 20px 0 75px;
+    }
+    #subView3_2 .leftSide,
+    #subView3_2 .rightSide{
+        width: auto;
+        padding: 0;
+        display: block;
+    }
+    #subView3_2 .rightSide img{
+        width: 100%;
+    }
+    #subView3_2 .txt1{
+        font-size: 12px;
+        line-height: 18px;
+        padding: 10px 0 5px;
+    }
+
+    /* Main Content [3-3] */
+    #subView3_3 .bg{
+        background-image: url(../images/sp/content/3/tab/1/3/1.jpg);
+        height: 109px;
+        width: 100%;
+    }
+    #subView3_3 .bg .wrapper .bgTxt{
+        padding: 0;
+    }
+    #subView3_3 .articleBlock{
+        padding: 20px 0 75px;
+    }
+    #subView3_3 .leftSide,
+    #subView3_3 .rightSide{
+        width: auto;
+        padding: 0;
+        display: block;
+    }
+    #subView3_3 .rightSide{
+        padding: 10px 0 0;
+    }
+    #subView3_3 .rightSide img{
+        width: 100%;
+    }
+    /* Main Content [3-4] */
+    #contentSubTrigger3_2 .bg{
+        background-image: url(../images/sp/content/3/tab/1/4/1.png);
+        height: 50px;
+        width: 100%;
+    }
+    #subView3_4 .articleBlock{
+        padding: 20px 0 35px;
+    }
+    #subView3_4 .leftSide,
+    #subView3_4 .rightSide{
+        width: auto;
+        display: block;
+        padding: 0;
+    }
+    #subView3_4 .rightSide ul{
+        padding: 15px 0 0;
+    }
+    #subView3_4 .rightSide ul li .watchImg{
+        padding: 10px 0;
+        border-left: none;
+        border-right: none;
+    }
+    #subView3_4 .rightSide ul li .watchImg img{
+        width: 100%;
+    }
+    /* Main Content [3-5] */
+    #subView3_5 .articleBlock{
+        padding: 20px 0 15px;
+    }
+    /* Main Content [3-6] */
+    #subView3_6 .leftSide,
+    #subView3_6 .rightSide{
+        width: auto;
+        display: block;
+        border: 1px solid #c5c5c5;
+    }
+    #subView3_6 .bufferSide{
+        width: 100%;
+        height: 10px;
+        display: block;
+    }
+    #subView3_6 .articleBlock{
+        padding: 0 0 75px;
+    }
+    #subView3_6 .leftSide,
+    #subView3_6 .rightSide{
+        padding: 15px 0 10px 10px;
+    }
+    #subView3_6 .jpStrL{
+        font-size: 12px;
+        line-height: 12px;
+        padding: 0 0 5px 0;
+    }
+    #subView3_6 .txt1{
+        font-size: 10px;
+        line-height: 17px;
+    }
+
+    /* Main Content [3-7] */
+    #contentSubTrigger3_3 .bg{
+        background-image: url(../images/sp/content/3/tab/1/7/1.jpg);
+        height: 50px;
+        width: 100%;
+    }
+    #contentSubTrigger3_3 .articleBlock{
+        padding: 20px 0 50px;
+    }
+    #subView3_7 .articleBlock{
+        padding: 20px 0 75px;
+    }
+
+    /* Main Content [3-8] */
+    #subView3_8 .articleBlock{
+        padding: 0 0 75px;
+    }
+    #subView3_8 .leftSide,
+    #subView3_8 .rightSide{
+        width: auto;
+        display: block;
+        padding: 0;
+    }
+    #subView3_8 .rightSide ul{
+        padding: 15px 0 0;
+    }
+    #subView3_8 .rightSide ul li .watchImg{
+        padding: 10px 0;
+        border-left: none;
+        border-right: none;
+        border-top: 1px solid #c5c5c5;
+        border-bottom: 1px solid #c5c5c5;
+    }
+    #subView3_8 .rightSide ul li .watchImg img{
+        width: 108px;
+        height: 146px;
+    }
+    #subView3_8 .rightSide ul li .enStrL{
+        font-size: 15px;
+        line-height: 15px;
+        padding: 10px 0 2px;
+    }
+    #subView3_8 .rightSide ul li .txt{
+        font-size: 10px;
+        line-height: 16px;
+    }
+    #subView3_8 .rightSide ul li .supTxt {
+        font-size: 9px;
+        padding: 0 0 2px;
+    }
+
+    /* Main Content [3-9] */
+    #subView3_9 .articleBlock{
+        padding: 0 0 20px;
+    }
+    #subView3_9 .leftSide,
+    #subView3_9 .rightSide{
+        width: auto;
+        display: block;
+        padding: 0;
+    }
+    #subView3_9 .rightSide ul{
+        padding: 15px 0 0;
+    }
+    #subView3_9 .rightSide ul li .watchImg{
+        padding: 10px 0;
+        border-left: none;
+        border-right: none;
+        border-top: 1px solid #c5c5c5;
+        border-bottom: 1px solid #c5c5c5;
+    }
+    #subView3_9 .rightSide ul li .watchImg img{
+        width: 98px;
+        height: 145px;
+    }
+    #subView3_9 .rightSide ul li .enStrL{
+        font-size: 15px;
+        line-height: 15px;
+        padding: 10px 0 2px;
+    }
+    #subView3_9 .rightSide ul li .txt{
+        font-size: 10px;
+        line-height: 16px;
+    }
+    #subView3_9 .rightSide ul li .supTxt {
+        font-size: 9px;
+        padding: 0 0 2px;
+    }
+
+    /* Main Content [3-10] */
+    #subView3_10{
+        background-position: center bottom;
+        background-size: 55% auto;
+    }
+    #subView3_10 .articleBlock{
+        padding: 20px 0 60%;
+    }
+
+    /* Main Content [3-11] */
+    #contentSubTrigger3_4 .bg{
+        background-size: cover;
+        background-image: url(../images/sp/content/3/tab/2/2/1.jpg);
+        height: 50px;
+        min-height: 50px;
+        width: 100%;
+    }
+    #contentSubTrigger3_4 .bg .wrapper .bgTxt{
+        padding: 0 !important;
+    }
+    #subView3_11 .articleBlock{
+        padding: 20px 0 75px;
+    }
+
+    /* Main Content [3-12] */
+    #subView3_12 .bg{
+        background-image: url(../images/sp/content/3/tab/2/3/1.jpg);
+        height: 109px;
+        width: 100%;
+    }
+    #subView3_12 .bg .wrapper .bgTxt{
+        width: 180px;
+        display: inline-block;
+        padding: 0;
+    }
+    #subView3_12 .articleBlock{
+        padding: 20px 0 75px;
+    }
+
+    /* Main Content [3-12] */
+    #contentSubTrigger3_5 .bg{
+        background-image: url(../images/sp/content/3/tab/2/4/1.png);
+        height: 50px;
+        width: 100%;
+    }
+    #subView3_13 .articleBlock{
+        padding: 20px 0 75px;
+    }
+    /* Main Content [3-14] */
+    #subView3_14 .articleBlock{
+        padding: 0 0 75px;
+    }
+    #subView3_14 .leftSide,
+    #subView3_14 .rightSide{
+        width: auto;
+        display: block;
+        padding: 0;
+    }
+    #subView3_14 .rightSide ul{
+        padding: 15px 0 0;
+    }
+    #subView3_14 .rightSide ul li .watchImg{
+        padding: 10px 0;
+        border-left: none;
+        border-right: none;
+    }
+    #subView3_14 .rightSide ul li .watchImg img{
+        width: 100%;
+    }
+    #subView3_14 .rightSide .imgWrapper .zoom{
+        width: 15px;
+        height: 15px;
+        right: 10px;
+        background-size: 15px 15px;
+        bottom: -20px;
+    }
+    /* Main Content [3-15] */
+    #contentSubTrigger3_6 .bg{
+        background-image: url(../images/sp/content/3/tab/2/6/1.jpg);
+        height: 50px;
+        width: 100%;
+    }
+    #subView3_15 .articleBlock{
+        padding: 20px 0 75px;
+    }
+    /* Main Content [3-16] */
+    #subView3_16 .articleBlock{
+        padding: 0 0 75px;
+    }
+    #subView3_16 .leftSide,
+    #subView3_16 .rightSide{
+        width: auto;
+        display: block;
+        padding: 0;
+    }
+    #subView3_16 .rightSide ul{
+        padding: 15px 0 0;
+    }
+    #subView3_16 .rightSide ul li .watchImg{
+        padding: 10px 0;
+        border-left: none;
+        border-right: none;
+        border-top: 1px solid #c5c5c5;
+        border-bottom: 1px solid #c5c5c5;
+        min-height: 150px;
+    }
+    #subView3_16 .rightSide ul li .watchImg img{
+        width: 91px;
+        height: 145px;
+    }
+    #subView3_16 .rightSide ul li .enStrL{
+        font-size: 15px;
+        line-height: 15px;
+        padding: 10px 0 2px;
+    }
+    #subView3_16 .rightSide ul li .txt{
+        font-size: 10px;
+        line-height: 16px;
+    }
+    #subView3_16 .rightSide ul li .supTxt {
+        font-size: 9px;
+        padding: 0 0 2px;
+    }
+    /* Main Content [3-17] */
+    #subView3_17 .articleBlock{
+        padding: 0 0 75px;
+    }
+    #subView3_17 .leftSide,
+    #subView3_17 .rightSide{
+        width: auto;
+        display: block;
+        padding: 0;
+    }
+    #subView3_17 .rightSide ul{
+        padding: 15px 0 0;
+    }
+    #subView3_17 .rightSide ul li .watchImg{
+        padding: 10px 0;
+        border-left: none;
+        border-right: none;
+        border-top: 1px solid #c5c5c5;
+        border-bottom: 1px solid #c5c5c5;
+        min-height: 150px;
+    }
+    #subView3_17 .rightSide ul li .watchImg img{
+        width: 86px;
+        height: 144px;
+    }
+    #subView3_17 .rightSide ul li .enStrL{
+        font-size: 15px;
+        line-height: 15px;
+        padding: 10px 0 2px;
+    }
+    #subView3_17 .rightSide ul li .txt{
+        font-size: 10px;
+        line-height: 16px;
+    }
+    #subView3_17 .rightSide ul li .supTxt {
+        font-size: 9px;
+        padding: 0 0 2px;
+    }
+    /* Main Content [3-18] */
+    #subView3_18 .articleBlock{
+        padding: 0 0 10px;
+    }
+    /* Main Content [3-19] */
+    #subView3_19{
+        padding: 0;
+    }
+    #subView3_19 .articleBlock{
+        padding: 15px 0;
+    }
+    #subView3_19 .articleBlock img{
+        width: 100%;
+    }
+    /*
+    ---------------------------------------------------------------------------------------
+        CONTENT - [Modal]
+    ---------------------------------------------------------------------------------------
+    */
+    #modal{
+        top: 40px;
+    }
+    #modalContent{
+        display: block !important;
+    }
+    #modalWrapper{
+        width: auto;
+        margin: 0 6.25%;
+        padding: 25px 0 0;
+    }
+    #modalWrapper p{
+        font-size: 10px;
+        line-height: 20px;
+    }
+    #modalWrapper p.ttl{
+        font-size: 14px;
+    }
+    #modalWrapper p.ttl:after{
+        content: '';
+        display: block;
+        width: 21px;
+        height: 1px;
+        background-color: #fff;
+        margin: 14px 0 10px;
+    }
+    #modalCopy{
+        /* 223 x 80% */
+        background-size: 178px auto;
+        width: 178px;
+        margin: 33px auto 0;
+    }
+    #mediaContent{
+        margin: 0;
+        float: none;
+    }
+    #mediaContent img{
+        width: 100%;
+    }
+    #mediaContent table{
+        padding: 20px 0 0;
+    }
+    #mediaContent table td{
+        width: 33%;
+        font-size: 12px;
+    }
+    #mediaContent ul{
+        padding: 20px 0 0;
+    }
+    #mediaContent ul li img{
+        width: 110px;
+        height: auto;
+    }
+    #mediaContent ul li span{
+        font-size: 12px;
+    }
+    #mediaContent p.txt{
+        padding: 0 0 20px;
+        margin: 20px 0 0;
+        font-size: 13px;
+    }
+    #mediaContent p.txt span{
+        font-size: 10px;
+    }
+    #closeMediaModal{
+        float: none;
+        background-color: #5c5c5c;
+        background-image: url(../images/sp/menu/close.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 66px 11px;
+        display: block;
+        height: 34px;
+        margin: 30px auto 0;
+        width: 133px;
+    }
+    #spMenu{
+        display: block;
+    }
+    #spMenu li:first-child{
+        border-top: 1px solid #fff;
+    }
+    #spMenu li{
+        border-bottom: 1px solid #fff;
+    }
+    #spMenu a.jpStrL span{
+        font-size: 14px !important;
+    }
+    #spCloseModal{
+        display: block;
+    }
+    /*
+    ---------------------------------------------------------------------------------------
+        CONTENT - [Main View]
+    ---------------------------------------------------------------------------------------
+    */
+    .mvPart{
+        background-position: center;
+    }
+    .mvPart .cellLayout{
+        width: 100%;
+        opacity: 1;
+        font-size: 15px;
+    }
+    #mvPart1{
+        background-image: url(../images/sp/mv/1.jpg);
+    }
+    .scroll #mvPart1 .cellLayout span{
+        font-size: 17.5px;
+    }
+    #mvPart2{
+        background-image: url(../images/sp/mv/2.jpg);
+    }
+    .scroll #mvPart2 .subTtl .txt{
+        font-size: 10px;
+    }
+    .scroll #mvPart2 .cellLayout span{
+        font-size: 17.5px;
+    }
+    .scroll #mvPart2 .subTtl img{
+        width: 50%;
+    }
+    #mvPart3{
+        background-image: url(../images/sp/mv/3.jpg);
+    }
+    .scroll #mvPart3 .cellLayout span{
+        font-size: 17.5px;
+    }
+    #footer,
+    .dummyFooter{
+        background-size: 60%;
+        background-position: center 70%;
+    }
+}
+
+
+/*FOR CONTENT DO NOT TOUCH BACKGROUND PIC*/
+@media (max-width: 800px){
+	.LGContent { display: none; }
+	.SMContent { display: block; }
+}
+
+@media (min-width: 801px){
+	.LGContent { display: block; }
+	.SMContent { display: none; }
+}
+
+@media (max-width: 1569px) {
+	.SRC_LGContent { display: none; }
+	.SRC_SMContent { display: block; }
+}
+@media (min-width: 1570px) { 
+	.SRC_LGContent { display: block; }
+	.SRC_SMContent { display: none; }
+}
+
+@media (max-width: 1599px) {
+	.SRC02Wrap { width: 90% !important }
+}
+
+@media (min-width: 801px) and (max-width: 1320px) {
+	.SRCContentPadding { width: 323px !important; }
+}
+
+@media (min-width: 801px) and (max-width: 1330px) {
+	.ST_Content { width: 300px; }
+}

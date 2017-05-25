@@ -1,0 +1,131 @@
+
+@charset "utf-8";
+
+.headingLv2 {
+  padding-left: 8px;
+  text-align: left;
+  border-left: 2px solid #000;
+}
+.sort_label {
+  top: 4%;
+}
+.tab {
+  margin-bottom: 5.667%;
+}
+.termsTable {
+  margin-bottom: 5.667%;
+}
+.termsTable_item {
+  padding-top: 3%;
+  border: 1px solid #000;
+}
+.termsTable_item + .termsTable_item {
+  margin-top: 3%;
+}
+.termsTable_selectBox {
+  display: table;
+  width: 100%;
+  padding-bottom: 3%;
+}
+.termsTable_selectItem {
+  display: table-cell;
+  vertical-align: middle;
+}
+.termsTable_selectItem:first-child {
+  width: 57%;
+}
+.termsTable_selectItem:last-child {
+  width: 40%;
+  padding-right: 3%;
+}
+.termsTable_category {
+  padding: 0 6%;
+}
+.termsTable_selectCategory {
+  padding: 10px 5px 5px 10px;
+  background-color: #f0f0f0;
+}
+.termsTable_selectCategory_item {
+  float: left;
+  margin:0 5px 5px 0;
+}
+.termsTable_selectCategory_item + .termsTable_selectCategory_item {
+  margin:0 5px 5px 0;
+}
+.termsTable_selectButton > a {
+  display: block;
+  position: relative;
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+  padding: 5px 8px 7px 12px;
+}
+.termsTable_selectButton > a::before {
+  content: '';
+  position: relative;
+  top: 6px;
+  left: 0;
+  width: 18px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 5px;
+  background: #000 url(../../images_mobile/common/icon_squeeze_01.png) no-repeat 0 0;
+}
+.termsTable_selectCategory_item > a {
+  display: table-cell;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  padding: 5px 5px 5px 18px;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+.termsTable_selectCategory_item > a::before,
+.termsTable_selectCategory_item > a::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  width: 13px;
+  height: 1px;
+  background-color: #000;
+}
+.termsTable_selectCategory_item > a::before {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.termsTable_selectCategory_item > a::after {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.termsTable_searchResult {
+  text-align: center;
+  margin-bottom: 3.333%;
+}
+.searchResultNumber {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.termsTable_searchButton {
+  margin: 0 3.333% 11.667%;
+}
+.termsTable_searchButton > a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  padding: 10px 0;
+  background-color: #000;
+}
+
+.columnWrap .column {
+  margin-top: 30px;
+}
+.columnWrap .column.new_icon {
+  margin-top: 0;
+}
+
+
+
